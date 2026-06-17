@@ -1,10 +1,49 @@
 {
-  "lastUpdated": "2026-06-17T19:37:27Z",
+  "lastUpdated": "2026-06-17T21:53:51Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "PMNT",
+      "name": "Perfect Moment Ltd.",
+      "exchange": "NYSE American",
+      "haltDate": "2026-06-17",
+      "haltTime": "16:43:12",
+      "reasonCode": "",
+      "reason": "News Dissemination",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "PMNT",
+      "name": "Perfect Moment Ltd. Common Stock",
+      "exchange": "NYSE",
+      "haltDate": "2026-06-17",
+      "haltTime": "16:03:27",
+      "reasonCode": "D",
+      "reason": "Security Deletion",
+      "resumptionDate": "2026-06-17",
+      "resumptionQuoteTime": "17:05:00",
+      "resumptionTradeTime": "17:05:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "MTEN",
+      "name": "Mingteng International Cl A OS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-17",
+      "haltTime": "15:42:31",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-06-17",
+      "resumptionQuoteTime": "15:42:31",
+      "resumptionTradeTime": "15:47:31",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "MTEN",
       "name": "Mingteng International Cl A OS",
@@ -15,7 +54,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-06-17",
       "resumptionQuoteTime": "15:33:17",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "15:38:17",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -903,19 +942,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "EMPG",
-      "name": "Empro Group Inc.",
-      "exchange": "Nasdaq",
-      "haltDate": "2025-10-08",
-      "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "NUTR",
       "name": "Nusatrip Incorporated Comm Stk",
       "exchange": "Nasdaq",
@@ -929,8 +955,21 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "PTNM",
-      "name": "Pitanium Ltd Ord A",
+      "symbol": "EMPG",
+      "name": "Empro Group Inc.",
+      "exchange": "Nasdaq",
+      "haltDate": "2025-10-08",
+      "haltTime": "19:50:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "EFTY",
+      "name": "Etoiles Capital Group Cl A OS",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-03",
       "haltTime": "19:50:00",
@@ -955,8 +994,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "EFTY",
-      "name": "Etoiles Capital Group Cl A OS",
+      "symbol": "PTNM",
+      "name": "Pitanium Ltd Ord A",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-03",
       "haltTime": "19:50:00",
