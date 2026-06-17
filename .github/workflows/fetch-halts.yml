@@ -1,0 +1,42 @@
+name: fetch-halts
+
+# 미국장 시간대(평일) 5분 간격으로 공개 거래정지 데이터를 수집해 data/*.json 갱신.
+# GitHub.com 호스팅 러너(상시 가동)에서 실행 → 특정 PC에 의존하지 않음.
+# cron은 UTC 기준, 12-23 UTC ≈ ET 08-19시(서머타임 포함 넓게).
+on:
+  schedule:
+    - cron: '*/5 12-23 * * 1-5'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-halts
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Collect halts
+        shell: pwsh
+        run: ./scripts/collect-halts.ps1
+
+      - name: Commit if changed
+        shell: pwsh
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/halts.json data/halts_history.json
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+            git commit -m "chore: update halt data [skip ci]"
+            git push
+            Write-Host "갱신 커밋/푸시 완료"
+          } else {
+            Write-Host "변경 없음 — 커밋 생략"
+          }
