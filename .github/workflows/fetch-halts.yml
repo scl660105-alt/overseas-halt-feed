@@ -35,7 +35,15 @@ jobs:
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
             git commit -m "chore: update halt data [skip ci]"
-            git push
+            $pushed = $false
+            for ($i = 0; $i -lt 5; $i++) {
+              git pull --rebase --autostash origin main
+              git push
+              if ($LASTEXITCODE -eq 0) { $pushed = $true; break }
+              Write-Host "push 충돌 — 재시도 $($i+1)/5"
+              Start-Sleep -Seconds 3
+            }
+            if (-not $pushed) { Write-Error "push 최종 실패"; exit 1 }
             Write-Host "갱신 커밋/푸시 완료"
           } else {
             Write-Host "변경 없음 — 커밋 생략"
