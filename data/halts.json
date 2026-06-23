@@ -1,10 +1,49 @@
 {
-  "lastUpdated": "2026-06-23T19:28:22Z",
+  "lastUpdated": "2026-06-23T23:36:35Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "SRXH",
+      "name": "\"SRX Health Solutions, Inc.\"",
+      "exchange": "NYSE American",
+      "haltDate": "2026-06-23",
+      "haltTime": "16:34:41",
+      "reasonCode": "",
+      "reason": "Regulatory Concern",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "SRXH",
+      "name": "SRX Health Solutions, Inc.",
+      "exchange": "AMEX",
+      "haltDate": "2026-06-23",
+      "haltTime": "16:13:37",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "JXG",
+      "name": "JX Luxventure Group Inc Cmn",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-23",
+      "haltTime": "15:58:56",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-06-23",
+      "resumptionQuoteTime": "15:58:56",
+      "resumptionTradeTime": "16:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "CLRO",
       "name": "CLEARONE INC. Cmn Stk",
