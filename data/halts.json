@@ -1,10 +1,88 @@
 {
-  "lastUpdated": "2026-06-25T19:23:30Z",
+  "lastUpdated": "2026-06-26T00:00:02Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "RUBI",
+      "name": "Rubico Inc.",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-25",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "NUWE",
+      "name": "Nuwellis, Inc.",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-25",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "VRAX",
+      "name": "Virax Biolabs Group Limited",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-25",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "LANV WS",
+      "name": "\"Lanvin Group Holdings Limited Redeemable Warrants, each whole warrant exercisable for one Ordinary Share at an exercise price of $11.50\"",
+      "exchange": "NYSE",
+      "haltDate": "2026-06-25",
+      "haltTime": "16:21:23",
+      "reasonCode": "",
+      "reason": "News Dissemination",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "SYNA",
+      "name": "Synaptics Inc.",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-25",
+      "haltTime": "16:10:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-06-25",
+      "resumptionQuoteTime": "16:30:00",
+      "resumptionTradeTime": "16:35:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "TC",
+      "name": "Token Cat Ltd ADS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-25",
+      "haltTime": "15:56:34",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-06-25",
+      "resumptionQuoteTime": "15:56:34",
+      "resumptionTradeTime": "16:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "WYHG",
       "name": "Wing Yip Fd Hldgs Grp ADS",
@@ -648,11 +726,11 @@
       "exchange": "NYSE",
       "haltDate": "2026-06-24",
       "haltTime": "16:50:30",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "reasonCode": "D",
+      "reason": "Security Deletion",
+      "resumptionDate": "2026-06-25",
+      "resumptionQuoteTime": "17:05:00",
+      "resumptionTradeTime": "17:05:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -663,9 +741,9 @@
       "haltTime": "16:15:30",
       "reasonCode": "",
       "reason": "News Pending",
-      "resumptionDate": "",
+      "resumptionDate": "See Subsequent Halt",
       "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "See Subsequent Halt",
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
@@ -851,8 +929,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "EFTY",
-      "name": "Etoiles Capital Group Cl A OS",
+      "symbol": "PLTS",
+      "name": "Platinum Analytics Cymn Ord A",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-03",
       "haltTime": "19:50:00",
@@ -877,8 +955,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "PLTS",
-      "name": "Platinum Analytics Cymn Ord A",
+      "symbol": "EFTY",
+      "name": "Etoiles Capital Group Cl A OS",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-03",
       "haltTime": "19:50:00",
