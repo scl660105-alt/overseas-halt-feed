@@ -1,10 +1,88 @@
 {
-  "lastUpdated": "2026-07-01T19:14:25Z",
+  "lastUpdated": "2026-07-01T23:54:01Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "GMEX",
+      "name": "GMEX ROBOTICS CORP Cl A OS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-01",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "GWH WS",
+      "name": "\"ESS Tech, Inc. Warrant exercisable for one-fifteenth of a share of Common Stock at an exercise price of $172.50 per share\"",
+      "exchange": "NYSE",
+      "haltDate": "2026-07-01",
+      "haltTime": "16:25:50",
+      "reasonCode": "",
+      "reason": "News Dissemination",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "EVGOW",
+      "name": "EVgo Inc. Warrants",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-01",
+      "haltTime": "16:05:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "LHAI",
+      "name": "Linkhome Holdings Inc. Cmn Stk",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-01",
+      "haltTime": "15:41:29",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-01",
+      "resumptionQuoteTime": "15:41:29",
+      "resumptionTradeTime": "15:46:29",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "RAAQU",
+      "name": "Real Asset Acq Cp Ut",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-01",
+      "haltTime": "15:38:31",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-01",
+      "resumptionQuoteTime": "15:38:31",
+      "resumptionTradeTime": "15:43:31",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "NEUP",
+      "name": "Neuphoria Therapeutics Inc. CS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-01",
+      "haltTime": "15:20:10",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-01",
+      "resumptionQuoteTime": "15:20:10",
+      "resumptionTradeTime": "15:25:10",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "JEM",
       "name": "707 Cayman Holdings Limited OS",
@@ -15,7 +93,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-07-01",
       "resumptionQuoteTime": "15:13:30",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "15:18:30",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -734,6 +812,19 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
+      "symbol": "MQ",
+      "name": "Marqeta, Inc. Cl A Cm St",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-30",
+      "haltTime": "19:50:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-07-01",
+      "resumptionQuoteTime": "08:55:00",
+      "resumptionTradeTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "RMTI",
       "name": "Rockwell Medical, Inc.",
       "exchange": "Nasdaq",
@@ -749,19 +840,6 @@
     {
       "symbol": "MRX",
       "name": "Marex Group plc",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-06-30",
-      "haltTime": "19:50:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-07-01",
-      "resumptionQuoteTime": "08:55:00",
-      "resumptionTradeTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "MQ",
-      "name": "Marqeta, Inc. Cl A Cm St",
       "exchange": "Nasdaq",
       "haltDate": "2026-06-30",
       "haltTime": "19:50:00",
@@ -804,11 +882,11 @@
       "exchange": "NYSE",
       "haltDate": "2026-06-30",
       "haltTime": "11:47:43",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "reasonCode": "D",
+      "reason": "Security Deletion",
+      "resumptionDate": "2026-07-01",
+      "resumptionQuoteTime": "17:06:00",
+      "resumptionTradeTime": "17:06:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -819,9 +897,9 @@
       "haltTime": "11:47:43",
       "reasonCode": "",
       "reason": "News Pending",
-      "resumptionDate": "",
+      "resumptionDate": "See Subsequent Halt",
       "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "See Subsequent Halt",
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
@@ -981,8 +1059,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "NUTR",
-      "name": "Nusatrip Incorporated Comm Stk",
+      "symbol": "EMPG",
+      "name": "Empro Group Inc.",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-08",
       "haltTime": "19:50:00",
@@ -994,8 +1072,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "EMPG",
-      "name": "Empro Group Inc.",
+      "symbol": "NUTR",
+      "name": "Nusatrip Incorporated Comm Stk",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-08",
       "haltTime": "19:50:00",
