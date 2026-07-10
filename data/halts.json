@@ -1,10 +1,49 @@
 {
-  "lastUpdated": "2026-07-10T18:08:38Z",
+  "lastUpdated": "2026-07-10T21:43:16Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "SORA",
+      "name": "AsiaStrategy Ord Shs",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-10",
+      "haltTime": "15:02:59",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-10",
+      "resumptionQuoteTime": "15:02:59",
+      "resumptionTradeTime": "15:12:59",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "UBXG",
+      "name": "U-BX Tech Ltd Ord A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-10",
+      "haltTime": "14:36:38",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-10",
+      "resumptionQuoteTime": "14:36:38",
+      "resumptionTradeTime": "14:41:38",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "BDCX",
+      "name": "ETRACS Quarterly Pay 1.5x Leveraged MarketVector BDC Liquid Index ETN due June 10, 2050",
+      "exchange": "NYSE Arca",
+      "haltDate": "2026-07-10",
+      "haltTime": "14:26:02",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-10",
+      "resumptionQuoteTime": "14:31:02",
+      "resumptionTradeTime": "14:31:02",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "HAO",
       "name": "Haoxi Health Tech Ltd Cl A Ord",
