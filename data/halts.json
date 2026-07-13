@@ -1,10 +1,49 @@
 {
-  "lastUpdated": "2026-07-13T18:20:09Z",
+  "lastUpdated": "2026-07-13T19:56:18Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "SLMT",
+      "name": "Brera Holdings PLC Class B OS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-13",
+      "haltTime": "15:52:36",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-13",
+      "resumptionQuoteTime": "15:52:36",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "APPC",
+      "name": "Corgi APP 2x Daily ETF",
+      "exchange": "Non NASDAQ",
+      "haltDate": "2026-07-13",
+      "haltTime": "15:36:49",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-13",
+      "resumptionQuoteTime": "15:41:49",
+      "resumptionTradeTime": "15:41:49",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "STLR",
+      "name": "Stellar ETF",
+      "exchange": "Non NASDAQ",
+      "haltDate": "2026-07-13",
+      "haltTime": "15:23:18",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-13",
+      "resumptionQuoteTime": "15:28:18",
+      "resumptionTradeTime": "15:28:18",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "FAC",
       "name": "Factorial Energy Inc. Cl A CS",
@@ -760,8 +799,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "BIYA",
-      "name": "Baiya International Group OS",
+      "symbol": "LMFA",
+      "name": "LM Funding America Cmn Stk",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-10",
       "haltTime": "19:50:00",
@@ -773,16 +812,16 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "XAIR",
-      "name": "Beyond Air, Inc.",
+      "symbol": "ESPR",
+      "name": "Esperion Therapeutics Cmn",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-10",
       "haltTime": "19:50:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-07-13",
-      "resumptionQuoteTime": "08:55:00",
-      "resumptionTradeTime": "09:00:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -825,21 +864,21 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "ESPR",
-      "name": "Esperion Therapeutics Cmn",
+      "symbol": "BIYA",
+      "name": "Baiya International Group OS",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-10",
       "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-07-13",
+      "resumptionQuoteTime": "08:55:00",
+      "resumptionTradeTime": "09:00:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "LMFA",
-      "name": "LM Funding America Cmn Stk",
+      "symbol": "XAIR",
+      "name": "Beyond Air, Inc.",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-10",
       "haltTime": "19:50:00",
@@ -1033,8 +1072,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "UCFI",
-      "name": "CN Healthy Food Tech Group CS",
+      "symbol": "UCFIW",
+      "name": "CN Healthy Food Tech Warrant",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-01",
       "haltTime": "11:28:10",
@@ -1046,8 +1085,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "UCFIW",
-      "name": "CN Healthy Food Tech Warrant",
+      "symbol": "UCFI",
+      "name": "CN Healthy Food Tech Group CS",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-01",
       "haltTime": "11:28:10",
