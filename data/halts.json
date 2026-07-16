@@ -1,21 +1,60 @@
 {
-  "lastUpdated": "2026-07-16T20:34:54Z",
+  "lastUpdated": "2026-07-16T21:44:25Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
     {
+      "symbol": "JSPR",
+      "name": "Jasper Therapeutics, Inc.",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-16",
+      "haltTime": "17:10:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-07-16",
+      "resumptionQuoteTime": "17:40:00",
+      "resumptionTradeTime": "17:45:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "JSPRW",
+      "name": "Jasper Therapeutics Wts",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-16",
+      "haltTime": "17:10:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-07-16",
+      "resumptionQuoteTime": "17:45:00",
+      "resumptionTradeTime": "17:50:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "SLAI",
+      "name": "SOLAI Limited American Depositary Shares (each representing seven hundred (700) Class A Ordinary Shares)",
+      "exchange": "NYSE",
+      "haltDate": "2026-07-16",
+      "haltTime": "16:45:05",
+      "reasonCode": "",
+      "reason": "News Dissemination",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
       "symbol": "SLAI",
       "name": "SOLAI Limited American Depositary Shares (each representing seven hundred (700) Class A Ordinary Sha",
       "exchange": "NYSE",
       "haltDate": "2026-07-16",
       "haltTime": "16:16:51",
-      "reasonCode": "H11",
-      "reason": "Regulatory Concern",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "reasonCode": "D",
+      "reason": "Security Deletion",
+      "resumptionDate": "2026-07-16",
+      "resumptionQuoteTime": "17:04:00",
+      "resumptionTradeTime": "17:04:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -604,19 +643,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "OPFI WS",
-      "name": "\"OppFi Inc. Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share\"",
-      "exchange": "NYSE",
-      "haltDate": "2026-07-13",
-      "haltTime": "10:27:55",
-      "reasonCode": "",
-      "reason": "Regulatory Concern",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
       "symbol": "OPFI.W",
       "name": "OppFi Inc. Warrants",
       "exchange": "NYSE",
@@ -628,6 +654,19 @@
       "resumptionQuoteTime": "",
       "resumptionTradeTime": "",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "OPFI WS",
+      "name": "\"OppFi Inc. Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share\"",
+      "exchange": "NYSE",
+      "haltDate": "2026-07-13",
+      "haltTime": "10:27:55",
+      "reasonCode": "",
+      "reason": "Regulatory Concern",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
       "symbol": "NCL",
