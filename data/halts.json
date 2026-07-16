@@ -1,10 +1,23 @@
 {
-  "lastUpdated": "2026-07-15T23:44:03Z",
+  "lastUpdated": "2026-07-16T01:11:25Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "GNPX",
+      "name": "Genprex, Inc. CM",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-15",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "SLAI",
       "name": "SOLAI Limited American Depositary Shares (each representing seven hundred (700) Class A Ordinary Sha",
@@ -877,8 +890,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "SOXS",
-      "name": "Direxion Daily Semiconductor Bear 3X ETF",
+      "symbol": "TECS",
+      "name": "Direxion Daily Technology Bear 3x ETF",
       "exchange": "NYSE Arca",
       "haltDate": "2026-07-14",
       "haltTime": "19:50:43",
@@ -886,7 +899,7 @@
       "reason": "Corporate Action",
       "resumptionDate": "2026-07-15",
       "resumptionQuoteTime": "",
-      "resumptionTradeTime": "09:00:00",
+      "resumptionTradeTime": "09:05:00",
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
@@ -903,21 +916,8 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "TECS",
-      "name": "Direxion Daily Technology Bear 3x ETF",
-      "exchange": "NYSE Arca",
-      "haltDate": "2026-07-14",
-      "haltTime": "19:50:43",
-      "reasonCode": "",
-      "reason": "Corporate Action",
-      "resumptionDate": "2026-07-15",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "09:05:00",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
-      "symbol": "DRIP",
-      "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X ETF",
+      "symbol": "SOXS",
+      "name": "Direxion Daily Semiconductor Bear 3X ETF",
       "exchange": "NYSE Arca",
       "haltDate": "2026-07-14",
       "haltTime": "19:50:43",
@@ -942,16 +942,29 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "AMDD",
-      "name": "Direxion Daily AMD Bear 1X ETF",
+      "symbol": "DRIP",
+      "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X ETF",
+      "exchange": "NYSE Arca",
+      "haltDate": "2026-07-14",
+      "haltTime": "19:50:43",
+      "reasonCode": "",
+      "reason": "Corporate Action",
+      "resumptionDate": "2026-07-15",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "09:00:00",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "NUVL",
+      "name": "Nuvalent Inc Cl A Cmn Stk",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-14",
       "haltTime": "19:50:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-07-15",
-      "resumptionQuoteTime": "08:55:00",
-      "resumptionTradeTime": "09:00:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -968,21 +981,21 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "CPRX",
-      "name": "Catalyst Pharmaceuticals, Inc.",
+      "symbol": "AMDD",
+      "name": "Direxion Daily AMD Bear 1X ETF",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-14",
       "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-07-15",
+      "resumptionQuoteTime": "08:55:00",
+      "resumptionTradeTime": "09:00:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "NUVL",
-      "name": "Nuvalent Inc Cl A Cmn Stk",
+      "symbol": "CPRX",
+      "name": "Catalyst Pharmaceuticals, Inc.",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-14",
       "haltTime": "19:50:00",
@@ -1267,8 +1280,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "UCFI",
-      "name": "CN Healthy Food Tech Group CS",
+      "symbol": "UCFIW",
+      "name": "CN Healthy Food Tech Warrant",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-01",
       "haltTime": "11:28:10",
@@ -1280,8 +1293,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "UCFIW",
-      "name": "CN Healthy Food Tech Warrant",
+      "symbol": "UCFI",
+      "name": "CN Healthy Food Tech Group CS",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-01",
       "haltTime": "11:28:10",
