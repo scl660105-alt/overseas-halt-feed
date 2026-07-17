@@ -1,10 +1,23 @@
 {
-  "lastUpdated": "2026-07-17T18:45:05Z",
+  "lastUpdated": "2026-07-17T19:53:35Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "WZRD",
+      "name": "Opportunistic Trader ETF",
+      "exchange": "Non NASDAQ",
+      "haltDate": "2026-07-17",
+      "haltTime": "15:39:55",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-17",
+      "resumptionQuoteTime": "15:44:55",
+      "resumptionTradeTime": "15:44:55",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "NIPG",
       "name": "NIP Group Inc. American Dep Sh",
