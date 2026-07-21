@@ -1,10 +1,23 @@
 {
-  "lastUpdated": "2026-07-21T20:16:54Z",
+  "lastUpdated": "2026-07-21T21:36:29Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "FNWD",
+      "name": "Finward Bancorp Cm",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-21",
+      "haltTime": "16:26:47",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-07-21",
+      "resumptionQuoteTime": "16:45:00",
+      "resumptionTradeTime": "16:50:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "NBIC",
       "name": "Corgi NBIS 2x Daily ETF",
