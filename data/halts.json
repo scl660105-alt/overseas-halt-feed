@@ -1,10 +1,36 @@
 {
-  "lastUpdated": "2026-07-22T18:42:33Z",
+  "lastUpdated": "2026-07-22T20:01:03Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "RDACU",
+      "name": "Rising Dragon Acq Ut",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-22",
+      "haltTime": "14:50:46",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-22",
+      "resumptionQuoteTime": "14:50:46",
+      "resumptionTradeTime": "14:55:46",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "PN",
+      "name": "PN Smt Energy Ltd Ord A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-22",
+      "haltTime": "14:43:31",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-22",
+      "resumptionQuoteTime": "14:43:31",
+      "resumptionTradeTime": "14:48:31",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "QMLS",
       "name": "QumulusAI, Inc. Common Stock",
@@ -643,8 +669,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "NUTR",
-      "name": "Nusatrip Incorporated Comm Stk",
+      "symbol": "EMPG",
+      "name": "Empro Group Inc.",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-08",
       "haltTime": "19:50:00",
@@ -656,8 +682,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "EMPG",
-      "name": "Empro Group Inc.",
+      "symbol": "NUTR",
+      "name": "Nusatrip Incorporated Comm Stk",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-08",
       "haltTime": "19:50:00",
