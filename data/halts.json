@@ -1,10 +1,75 @@
 {
-  "lastUpdated": "2026-08-13T17:43:41Z",
+  "lastUpdated": "2026-08-13T18:41:17Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "WDAY",
+      "name": "Workday Inc Cl A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-13",
+      "haltTime": "14:39:22",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-13",
+      "resumptionQuoteTime": "14:39:22",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "ACHX",
+      "name": "Corgi ACHR 2x Daily ETF",
+      "exchange": "Non NASDAQ",
+      "haltDate": "2026-08-13",
+      "haltTime": "14:37:05",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday Inc Cl A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-13",
+      "haltTime": "14:33:40",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-13",
+      "resumptionQuoteTime": "14:33:40",
+      "resumptionTradeTime": "14:38:40",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "AHT PRI",
+      "name": "\"Ashford Hospitality Trust, Inc. 7.50% Series I Cumulative Preferred Stock\"",
+      "exchange": "NYSE",
+      "haltDate": "2026-08-13",
+      "haltTime": "13:59:12",
+      "reasonCode": "",
+      "reason": "LULD Pause",
+      "resumptionDate": "2026-08-13",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "14:04:24",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "AHT-I",
+      "name": "",
+      "exchange": "NYSE",
+      "haltDate": "2026-08-13",
+      "haltTime": "13:59:12",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-13",
+      "resumptionQuoteTime": "14:04:24",
+      "resumptionTradeTime": "14:04:24",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "FGI",
       "name": "FGI Industries Ltd. Os",
@@ -76,11 +141,11 @@
       "exchange": "NYSE",
       "haltDate": "2026-08-13",
       "haltTime": "11:41:17",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-08-13",
+      "resumptionQuoteTime": "13:17:42",
+      "resumptionTradeTime": "13:17:42",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -201,19 +266,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "SES.W",
-      "name": "SES AI Corporation Warrants, each whole warrant exercisable for one share of Class A Common Stock at",
-      "exchange": "NYSE",
-      "haltDate": "2026-08-13",
-      "haltTime": "09:59:48",
-      "reasonCode": "H11",
-      "reason": "Regulatory Concern",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "SES WS",
       "name": "\"SES AI Corporation  Warrants, each whole warrant exercisable for one share of Class A Common Stock at an exercise price of $11.50 per share\"",
       "exchange": "NYSE",
@@ -225,6 +277,19 @@
       "resumptionQuoteTime": "",
       "resumptionTradeTime": "",
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "SES.W",
+      "name": "SES AI Corporation Warrants, each whole warrant exercisable for one share of Class A Common Stock at",
+      "exchange": "NYSE",
+      "haltDate": "2026-08-13",
+      "haltTime": "09:59:48",
+      "reasonCode": "H11",
+      "reason": "Regulatory Concern",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
       "symbol": "IREC",
@@ -253,19 +318,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "PSQH WS",
-      "name": "\"PSQ Holdings, Inc. Warrants, Each whole warrant exercisable for 1/15th of a share of Class A common stock at an exercise price of $172.50 per share\"",
-      "exchange": "NYSE",
-      "haltDate": "2026-08-13",
-      "haltTime": "09:54:05",
-      "reasonCode": "",
-      "reason": "News Pending",
-      "resumptionDate": "2026-08-13",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "10:19:06",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
       "symbol": "PSQH.W",
       "name": "PSQ Holdings, Inc. Warrants, each exercisable for one share of Class A common stock at an exercise p",
       "exchange": "NYSE",
@@ -277,6 +329,19 @@
       "resumptionQuoteTime": "10:19:06",
       "resumptionTradeTime": "10:19:06",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "PSQH WS",
+      "name": "\"PSQ Holdings, Inc. Warrants, Each whole warrant exercisable for 1/15th of a share of Class A common stock at an exercise price of $172.50 per share\"",
+      "exchange": "NYSE",
+      "haltDate": "2026-08-13",
+      "haltTime": "09:54:05",
+      "reasonCode": "",
+      "reason": "News Pending",
+      "resumptionDate": "2026-08-13",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "10:19:06",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
       "symbol": "DIT",
