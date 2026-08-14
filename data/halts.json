@@ -1,10 +1,23 @@
 {
-  "lastUpdated": "2026-08-14T19:32:51Z",
+  "lastUpdated": "2026-08-14T20:07:33Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "XHG",
+      "name": "XChange TEC.INC ADS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-14",
+      "haltTime": "15:54:34",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-14",
+      "resumptionQuoteTime": "15:54:34",
+      "resumptionTradeTime": "16:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "MTEX",
       "name": "Mannatech Incorporated",
