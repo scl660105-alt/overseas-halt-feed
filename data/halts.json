@@ -1,10 +1,23 @@
 {
-  "lastUpdated": "2026-08-17T19:07:33Z",
+  "lastUpdated": "2026-08-17T19:41:46Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "EJH",
+      "name": "E-Home Hshld Ltd Srv Ord Shs",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-17",
+      "haltTime": "15:34:38",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-17",
+      "resumptionQuoteTime": "15:34:38",
+      "resumptionTradeTime": "15:39:38",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "WETO",
       "name": "Wetour Robotics Ltd Ord",
