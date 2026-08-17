@@ -1,10 +1,23 @@
 {
-  "lastUpdated": "2026-08-17T18:22:11Z",
+  "lastUpdated": "2026-08-17T19:07:33Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "WETO",
+      "name": "Wetour Robotics Ltd Ord",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-17",
+      "haltTime": "14:31:10",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-17",
+      "resumptionQuoteTime": "14:31:10",
+      "resumptionTradeTime": "14:36:10",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "BRNX",
       "name": "BrenX Ltd. Ordinary Shares",
@@ -819,22 +832,22 @@
       "haltTime": "03:58:00",
       "reasonCode": "",
       "reason": "News Pending",
-      "resumptionDate": "",
+      "resumptionDate": "2026-08-17",
       "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "14:35:00",
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "TALK",
-      "name": "Talkspace, Inc.  Common Stock",
+      "symbol": "PFSA",
+      "name": "Profusa, Inc.",
       "exchange": "Nasdaq",
       "haltDate": "2026-08-14",
       "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-08-17",
+      "resumptionQuoteTime": "08:55:00",
+      "resumptionTradeTime": "09:00:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -851,16 +864,16 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "PFSA",
-      "name": "Profusa, Inc.",
+      "symbol": "TALK",
+      "name": "Talkspace, Inc.  Common Stock",
       "exchange": "Nasdaq",
       "haltDate": "2026-08-14",
       "haltTime": "19:50:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-08-17",
-      "resumptionQuoteTime": "08:55:00",
-      "resumptionTradeTime": "09:00:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
