@@ -1,10 +1,22 @@
 {
-  "lastUpdated": "2026-08-17T20:03:08Z",
+  "lastUpdated": "2026-08-17T20:39:40Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/api/trade-halts/historical/download"
   },
   "halts": [
+    {
+      "symbol": "DRMAW",
+      "name": "Dermata Therapeutics Wt",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-17",
+      "haltTime": "16:21:31",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "EJH",
       "name": "E-Home Hshld Ltd Srv Ord Shs",
@@ -858,6 +870,18 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
+      "symbol": "GPUS-D",
+      "name": "Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock",
+      "exchange": "AMEX",
+      "haltDate": "2026-08-14",
+      "haltTime": "14:15:13",
+      "reasonCode": "H11",
+      "reason": "Regulatory Concern",
+      "resumptionDate": "",
+      "resumptionTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "GPUS PRD",
       "name": "\"Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock\"",
       "exchange": "NYSE American",
@@ -872,18 +896,6 @@
     {
       "symbol": "GPUS",
       "name": "Hyperscale Data, Inc.",
-      "exchange": "AMEX",
-      "haltDate": "2026-08-14",
-      "haltTime": "14:15:13",
-      "reasonCode": "H11",
-      "reason": "Regulatory Concern",
-      "resumptionDate": "",
-      "resumptionTime": "",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "GPUS-D",
-      "name": "Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock",
       "exchange": "AMEX",
       "haltDate": "2026-08-14",
       "haltTime": "14:15:13",
@@ -1914,18 +1926,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "SMXT",
-      "name": "Solarmax Technology Inc. CS",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-08-12",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "KIDZ",
       "name": "KIDZ AI Inc. Cmn B",
       "exchange": "Nasdaq",
@@ -1976,6 +1976,18 @@
     {
       "symbol": "MBAI",
       "name": "Check-Cap Ltd. Ord",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-12",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "SMXT",
+      "name": "Solarmax Technology Inc. CS",
       "exchange": "Nasdaq",
       "haltDate": "2026-08-12",
       "haltTime": "19:50:00",
@@ -4302,8 +4314,8 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "SCKT",
-      "name": "Socket Mobile, Inc. CM ST",
+      "symbol": "BCARU",
+      "name": "D. Boral ARC Acq Unit",
       "exchange": "Nasdaq",
       "haltDate": "2026-08-10",
       "haltTime": "11:03:47",
@@ -4314,8 +4326,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "BCARU",
-      "name": "D. Boral ARC Acq Unit",
+      "symbol": "SCKT",
+      "name": "Socket Mobile, Inc. CM ST",
       "exchange": "Nasdaq",
       "haltDate": "2026-08-10",
       "haltTime": "11:03:47",
@@ -4878,18 +4890,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "SXTC",
-      "name": "China SXT Pharma Class A Ords",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-08-07",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "ONFO",
       "name": "Onfolio Holdings Inc. Cm St",
       "exchange": "Nasdaq",
@@ -4916,6 +4916,18 @@
     {
       "symbol": "ELPW",
       "name": "Elg Pwr Hldg Ltd Ord A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-07",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "SXTC",
+      "name": "China SXT Pharma Class A Ords",
       "exchange": "Nasdaq",
       "haltDate": "2026-08-07",
       "haltTime": "19:50:00",
@@ -7302,6 +7314,18 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
+      "symbol": "BYAH",
+      "name": "Park Ha Biological Tech Ord A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-05",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "GRNQ",
       "name": "Greenpro Capital Corp. Cmn Stk",
       "exchange": "Nasdaq",
@@ -7316,18 +7340,6 @@
     {
       "symbol": "SUGP",
       "name": "SU Grp Hldgs Ltd Ord A",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-08-05",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "BYAH",
-      "name": "Park Ha Biological Tech Ord A",
       "exchange": "Nasdaq",
       "haltDate": "2026-08-05",
       "haltTime": "19:50:00",
@@ -9822,6 +9834,18 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
+      "symbol": "BLRK",
+      "name": "Bluerock Acq Co Cl A Ord Sh",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-03",
+      "haltTime": "07:55:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-08-03",
+      "resumptionTime": "08:20:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "BLRKU",
       "name": "Bluerock Acquisition Corp. Ut",
       "exchange": "Nasdaq",
@@ -9843,18 +9867,6 @@
       "reason": "News and Resumption Times",
       "resumptionDate": "2026-08-03",
       "resumptionTime": "08:25:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "BLRK",
-      "name": "Bluerock Acq Co Cl A Ord Sh",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-08-03",
-      "haltTime": "07:55:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-08-03",
-      "resumptionTime": "08:20:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -9894,68 +9906,8 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "KWMWW",
-      "name": "K Wave Media Warrant",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-31",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:05:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "SEGG",
-      "name": "Sports Entrtnmt Gmg Glb Cm",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-31",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "LEXX",
-      "name": "Lexaria Bioscience Corp. Cm St",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-31",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "TOP",
-      "name": "TOP Fin Grp Ord A",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-31",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "LBGJ",
-      "name": "Li Bang Intl Class A Ord Shs",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-31",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "WETO",
-      "name": "Wetour Robotics Ltd Ord",
+      "symbol": "MVIS",
+      "name": "MicroVision Inc",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-31",
       "haltTime": "19:50:00",
@@ -9990,8 +9942,68 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "MVIS",
-      "name": "MicroVision Inc",
+      "symbol": "WETO",
+      "name": "Wetour Robotics Ltd Ord",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-31",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "SEGG",
+      "name": "Sports Entrtnmt Gmg Glb Cm",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-31",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "TOP",
+      "name": "TOP Fin Grp Ord A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-31",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "LBGJ",
+      "name": "Li Bang Intl Class A Ord Shs",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-31",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "KWMWW",
+      "name": "K Wave Media Warrant",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-31",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:05:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "LEXX",
+      "name": "Lexaria Bioscience Corp. Cm St",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-31",
       "haltTime": "19:50:00",
@@ -11298,51 +11310,15 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "ELSE",
-      "name": "Electro-Sensors Inc",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-30",
-      "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionTime": "00:00:01",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "SKYT",
-      "name": "SkyWater Technology, Inc. Cm",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-30",
-      "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionTime": "00:00:01",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "NEXR",
-      "name": "Nexera Technologies Ltd Ord Sh",
+      "symbol": "NEXRW",
+      "name": "Nexera Technologies Ltd Wt",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-30",
       "haltTime": "19:50:00",
       "reasonCode": "T1",
       "reason": "News Pending",
       "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "CSAI",
-      "name": "Cloudastructure, Inc. CL A CS",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-30",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
+      "resumptionTime": "09:05:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -11358,15 +11334,51 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "NEXRW",
-      "name": "Nexera Technologies Ltd Wt",
+      "symbol": "NEXR",
+      "name": "Nexera Technologies Ltd Ord Sh",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-30",
       "haltTime": "19:50:00",
       "reasonCode": "T1",
       "reason": "News Pending",
       "resumptionDate": "",
-      "resumptionTime": "09:05:00",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "ELSE",
+      "name": "Electro-Sensors Inc",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-30",
+      "haltTime": "19:50:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionTime": "00:00:01",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "CSAI",
+      "name": "Cloudastructure, Inc. CL A CS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-30",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "SKYT",
+      "name": "SkyWater Technology, Inc. Cm",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-30",
+      "haltTime": "19:50:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionTime": "00:00:01",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -12438,8 +12450,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "RACK",
-      "name": "VanEck Data Center Supply Chain ETF",
+      "symbol": "LRCC",
+      "name": "Corgi LRCX 2x Daily ETF",
       "exchange": "Non NASDAQ",
       "haltDate": "2026-07-30",
       "haltTime": "09:31:17",
@@ -12450,8 +12462,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "LRCC",
-      "name": "Corgi LRCX 2x Daily ETF",
+      "symbol": "RACK",
+      "name": "VanEck Data Center Supply Chain ETF",
       "exchange": "Non NASDAQ",
       "haltDate": "2026-07-30",
       "haltTime": "09:31:17",
@@ -12546,18 +12558,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "KEEX",
-      "name": "Defiance Daily Target 2x Long KEEL ETF",
-      "exchange": "Non NASDAQ",
-      "haltDate": "2026-07-30",
-      "haltTime": "09:30:26",
-      "reasonCode": "M",
-      "reason": "Volatility Trading Pause (LULD)",
-      "resumptionDate": "2026-07-30",
-      "resumptionTime": "09:40:26",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "UCTX",
       "name": "Corgi UCTT 2x Daily ETF",
       "exchange": "Non NASDAQ",
@@ -12567,6 +12567,18 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-07-30",
       "resumptionTime": "09:35:26",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "KEEX",
+      "name": "Defiance Daily Target 2x Long KEEL ETF",
+      "exchange": "Non NASDAQ",
+      "haltDate": "2026-07-30",
+      "haltTime": "09:30:26",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-30",
+      "resumptionTime": "09:40:26",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -14622,24 +14634,24 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "UMCX",
-      "name": "Corgi UMC 2x Daily ETF",
-      "exchange": "Non NASDAQ",
-      "haltDate": "2026-07-28",
-      "haltTime": "09:30:15",
-      "reasonCode": "M",
-      "reason": "Volatility Trading Pause (LULD)",
-      "resumptionDate": "2026-07-28",
-      "resumptionTime": "09:35:15",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "BCARU",
       "name": "D. Boral ARC Acq Unit",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-28",
       "haltTime": "09:30:15",
       "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-28",
+      "resumptionTime": "09:35:15",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "UMCX",
+      "name": "Corgi UMC 2x Daily ETF",
+      "exchange": "Non NASDAQ",
+      "haltDate": "2026-07-28",
+      "haltTime": "09:30:15",
+      "reasonCode": "M",
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-07-28",
       "resumptionTime": "09:35:15",
@@ -15546,18 +15558,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "ETHV",
-      "name": "VanEck Ethereum ETF",
-      "exchange": "Non NASDAQ",
-      "haltDate": "2026-07-27",
-      "haltTime": "09:35:22",
-      "reasonCode": "M",
-      "reason": "Volatility Trading Pause (LULD)",
-      "resumptionDate": "2026-07-27",
-      "resumptionTime": "09:40:22",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "YYAI",
       "name": "AiRWA Inc. Common Stock",
       "exchange": "Nasdaq",
@@ -15567,6 +15567,18 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-07-27",
       "resumptionTime": "09:45:22",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "ETHV",
+      "name": "VanEck Ethereum ETF",
+      "exchange": "Non NASDAQ",
+      "haltDate": "2026-07-27",
+      "haltTime": "09:35:22",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-27",
+      "resumptionTime": "09:40:22",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -16698,6 +16710,18 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
+      "symbol": "DBGI",
+      "name": "Digital Brands Group, Inc. Cm",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-23",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "FFAI",
       "name": "Faraday Fut Int El Cmn A",
       "exchange": "Nasdaq",
@@ -16712,18 +16736,6 @@
     {
       "symbol": "TRIB",
       "name": "Trinity Biotech PLC ADR",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-23",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "DBGI",
-      "name": "Digital Brands Group, Inc. Cm",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-23",
       "haltTime": "19:50:00",
@@ -17706,6 +17718,18 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
+      "symbol": "NSA PRB",
+      "name": "National Storage Affiliates Trust 6.000% Series B Cumulative Redeemable Preferred Shares of Beneficial Interest",
+      "exchange": "NYSE",
+      "haltDate": "2026-07-22",
+      "haltTime": "08:11:36",
+      "reasonCode": "",
+      "reason": "Merger Effective",
+      "resumptionDate": "",
+      "resumptionTime": "",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
       "symbol": "NSA PRA",
       "name": "National Storage Affiliates Trust 6.000 Percent Series A Cumulative Redeemable Preferred Shares of Beneficial Interest (Liquidation Preference $25.00",
       "exchange": "NYSE",
@@ -17720,18 +17744,6 @@
     {
       "symbol": "NSA",
       "name": "National Storage Affiliates Trust",
-      "exchange": "NYSE",
-      "haltDate": "2026-07-22",
-      "haltTime": "08:11:36",
-      "reasonCode": "",
-      "reason": "Merger Effective",
-      "resumptionDate": "",
-      "resumptionTime": "",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
-      "symbol": "NSA PRB",
-      "name": "National Storage Affiliates Trust 6.000% Series B Cumulative Redeemable Preferred Shares of Beneficial Interest",
       "exchange": "NYSE",
       "haltDate": "2026-07-22",
       "haltTime": "08:11:36",
@@ -19734,18 +19746,6 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "CDTTW",
-      "name": "CDT Equity Inc. Warrant",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-17",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:05:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "APM",
       "name": "Aptorum Group Limited CS",
       "exchange": "Nasdaq",
@@ -19758,92 +19758,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "CCG",
-      "name": "Cheche Group Inc Class A OS",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-17",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "PRPL",
-      "name": "Purple Innovation, Inc.",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-17",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "CIIT",
-      "name": "Tianci International, Inc. CS",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-17",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "CDT",
-      "name": "CDT Equity Inc. Common Stock",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-17",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "NIKI",
-      "name": "Niki BioSolutions, Inc Com Stk",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-17",
-      "haltTime": "19:50:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-07-20",
-      "resumptionTime": "09:05:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "DFNSW",
-      "name": "T3 Defense Inc. Wt",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-17",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:05:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "TOMZ",
-      "name": "TOMI Environmental Sol Cm St",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-17",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "BANL",
-      "name": "CBL International Lmtd Cl B OS",
+      "symbol": "DFNS",
+      "name": "T3 Defense Inc. Cmn",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-17",
       "haltTime": "19:50:00",
@@ -19866,8 +19782,104 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "DFNS",
-      "name": "T3 Defense Inc. Cmn",
+      "symbol": "BANL",
+      "name": "CBL International Lmtd Cl B OS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-17",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "TOMZ",
+      "name": "TOMI Environmental Sol Cm St",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-17",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "DFNSW",
+      "name": "T3 Defense Inc. Wt",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-17",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:05:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "CDTTW",
+      "name": "CDT Equity Inc. Warrant",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-17",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:05:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "CDT",
+      "name": "CDT Equity Inc. Common Stock",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-17",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "CCG",
+      "name": "Cheche Group Inc Class A OS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-17",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "NIKI",
+      "name": "Niki BioSolutions, Inc Com Stk",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-17",
+      "haltTime": "19:50:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-07-20",
+      "resumptionTime": "09:05:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "CIIT",
+      "name": "Tianci International, Inc. CS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-17",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "PRPL",
+      "name": "Purple Innovation, Inc.",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-17",
       "haltTime": "19:50:00",
@@ -21534,8 +21546,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "AIBD",
-      "name": "Direxion Daily AI and Big Data Bear 2X ETF",
+      "symbol": "DRIP",
+      "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X ETF",
       "exchange": "NYSE Arca",
       "haltDate": "2026-07-14",
       "haltTime": "19:50:43",
@@ -21543,6 +21555,18 @@
       "reason": "Corporate Action",
       "resumptionDate": "",
       "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "TECS",
+      "name": "Direxion Daily Technology Bear 3x ETF",
+      "exchange": "NYSE Arca",
+      "haltDate": "2026-07-14",
+      "haltTime": "19:50:43",
+      "reasonCode": "",
+      "reason": "Corporate Action",
+      "resumptionDate": "",
+      "resumptionTime": "09:05:00",
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
@@ -21570,20 +21594,8 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "TECS",
-      "name": "Direxion Daily Technology Bear 3x ETF",
-      "exchange": "NYSE Arca",
-      "haltDate": "2026-07-14",
-      "haltTime": "19:50:43",
-      "reasonCode": "",
-      "reason": "Corporate Action",
-      "resumptionDate": "",
-      "resumptionTime": "09:05:00",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
-      "symbol": "DRIP",
-      "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X ETF",
+      "symbol": "AIBD",
+      "name": "Direxion Daily AI and Big Data Bear 2X ETF",
       "exchange": "NYSE Arca",
       "haltDate": "2026-07-14",
       "haltTime": "19:50:43",
@@ -22338,6 +22350,30 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
+      "symbol": "XOMAP",
+      "name": "XOMA Ry 8.625 Ser A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-13",
+      "haltTime": "19:50:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionTime": "00:00:01",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "XOMAO",
+      "name": "XOMA Ry Dep Sh B 8.375 Cum Pf",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-13",
+      "haltTime": "19:50:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionTime": "00:00:01",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "LGHL",
       "name": "Lion Group Holding Ltd. ADS",
       "exchange": "Nasdaq",
@@ -22347,18 +22383,6 @@
       "reason": "News Pending",
       "resumptionDate": "",
       "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "XOMA",
-      "name": "XOMA Royalty Corp",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-13",
-      "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionTime": "00:00:01",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -22386,20 +22410,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "XOMAO",
-      "name": "XOMA Ry Dep Sh B 8.375 Cum Pf",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-13",
-      "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionTime": "00:00:01",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "XOMAP",
-      "name": "XOMA Ry 8.625 Ser A",
+      "symbol": "XOMA",
+      "name": "XOMA Royalty Corp",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-13",
       "haltTime": "19:50:00",
@@ -23106,68 +23118,32 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "EDBL",
-      "name": "Edible Garden AG Inc Cmn",
+      "symbol": "EDBLW",
+      "name": "Edible Garden AG Inc Wt",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-10",
       "haltTime": "19:50:00",
       "reasonCode": "T1",
       "reason": "News Pending",
       "resumptionDate": "",
-      "resumptionTime": "09:00:00",
+      "resumptionTime": "09:05:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "CCHH",
-      "name": "CCH Holdings Lt Class A Ord Sh",
+      "symbol": "ESPR",
+      "name": "Esperion Therapeutics Cmn",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-10",
       "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
       "resumptionDate": "",
-      "resumptionTime": "09:00:00",
+      "resumptionTime": "00:00:01",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "YHC",
-      "name": "LQR House Inc. cm",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-10",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "CPOP",
-      "name": "Pop Culture Group Cl A Or Sh",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-10",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "XAIR",
-      "name": "Beyond Air, Inc.",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-10",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "FTFT",
-      "name": "Future FinTech Group Inc.",
+      "symbol": "BIYA",
+      "name": "Baiya International Group OS",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-10",
       "haltTime": "19:50:00",
@@ -23190,8 +23166,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "BIYA",
-      "name": "Baiya International Group OS",
+      "symbol": "YHC",
+      "name": "LQR House Inc. cm",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-10",
       "haltTime": "19:50:00",
@@ -23202,27 +23178,63 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "ESPR",
-      "name": "Esperion Therapeutics Cmn",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-10",
-      "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionTime": "00:00:01",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "EDBLW",
-      "name": "Edible Garden AG Inc Wt",
+      "symbol": "XAIR",
+      "name": "Beyond Air, Inc.",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-10",
       "haltTime": "19:50:00",
       "reasonCode": "T1",
       "reason": "News Pending",
       "resumptionDate": "",
-      "resumptionTime": "09:05:00",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "CPOP",
+      "name": "Pop Culture Group Cl A Or Sh",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-10",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "EDBL",
+      "name": "Edible Garden AG Inc Cmn",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-10",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "FTFT",
+      "name": "Future FinTech Group Inc.",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-10",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "CCHH",
+      "name": "CCH Holdings Lt Class A Ord Sh",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-10",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -23862,18 +23874,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "AHT PRD",
-      "name": "\"Ashford Hospitality Trust, Inc. 8.45% Series D\"",
-      "exchange": "NYSE",
-      "haltDate": "2026-07-09",
-      "haltTime": "10:49:00",
-      "reasonCode": "",
-      "reason": "LULD Pause",
-      "resumptionDate": "2026-07-09",
-      "resumptionTime": "10:54:03",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
       "symbol": "AHT-D",
       "name": "",
       "exchange": "NYSE",
@@ -23884,6 +23884,18 @@
       "resumptionDate": "2026-07-09",
       "resumptionTime": "10:54:03",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "AHT PRD",
+      "name": "\"Ashford Hospitality Trust, Inc. 8.45% Series D\"",
+      "exchange": "NYSE",
+      "haltDate": "2026-07-09",
+      "haltTime": "10:49:00",
+      "reasonCode": "",
+      "reason": "LULD Pause",
+      "resumptionDate": "2026-07-09",
+      "resumptionTime": "10:54:03",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
       "symbol": "MB",
@@ -24102,8 +24114,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "ENLV",
-      "name": "Enlivex Ltd.",
+      "symbol": "RBNE",
+      "name": "Robin Energy Ltd Cmn",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-08",
       "haltTime": "19:50:00",
@@ -24114,8 +24126,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "RBNE",
-      "name": "Robin Energy Ltd Cmn",
+      "symbol": "ENLV",
+      "name": "Enlivex Ltd.",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-08",
       "haltTime": "19:50:00",
@@ -24426,8 +24438,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "VEEE",
-      "name": "Twin Vee PowerCats Co. Cm St",
+      "symbol": "TROO",
+      "name": "TROOPS, Inc. Ord Shs",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-08",
       "haltTime": "09:44:35",
@@ -24438,8 +24450,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "TROO",
-      "name": "TROOPS, Inc. Ord Shs",
+      "symbol": "VEEE",
+      "name": "Twin Vee PowerCats Co. Cm St",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-08",
       "haltTime": "09:44:35",
@@ -24642,18 +24654,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "AHT-D",
-      "name": "",
-      "exchange": "NYSE",
-      "haltDate": "2026-07-07",
-      "haltTime": "10:51:15",
-      "reasonCode": "M",
-      "reason": "Volatility Trading Pause (LULD)",
-      "resumptionDate": "2026-07-07",
-      "resumptionTime": "10:56:27",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "AHT PRD",
       "name": "\"Ashford Hospitality Trust, Inc. 8.45% Series D\"",
       "exchange": "NYSE",
@@ -24664,6 +24664,18 @@
       "resumptionDate": "2026-07-07",
       "resumptionTime": "10:56:27",
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "AHT-D",
+      "name": "",
+      "exchange": "NYSE",
+      "haltDate": "2026-07-07",
+      "haltTime": "10:51:15",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-07-07",
+      "resumptionTime": "10:56:27",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
       "symbol": "BEC",
@@ -24882,18 +24894,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "WSO.B",
-      "name": "Watsco, Inc. Class B Common Stock",
-      "exchange": "NYSE",
-      "haltDate": "2026-07-07",
-      "haltTime": "09:41:41",
-      "reasonCode": "M",
-      "reason": "Volatility Trading Pause (LULD)",
-      "resumptionDate": "2026-07-07",
-      "resumptionTime": "09:47:03",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "WSO B",
       "name": "\"Watsco, Inc. Class B\"",
       "exchange": "NYSE",
@@ -24906,16 +24906,16 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "WSO B",
-      "name": "\"Watsco, Inc. Class B\"",
+      "symbol": "WSO.B",
+      "name": "Watsco, Inc. Class B Common Stock",
       "exchange": "NYSE",
       "haltDate": "2026-07-07",
-      "haltTime": "09:35:55",
-      "reasonCode": "",
-      "reason": "LULD Pause",
+      "haltTime": "09:41:41",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-07-07",
-      "resumptionTime": "09:41:23",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+      "resumptionTime": "09:47:03",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
       "symbol": "WSO.B",
@@ -24928,6 +24928,18 @@
       "resumptionDate": "2026-07-07",
       "resumptionTime": "09:41:23",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "WSO B",
+      "name": "\"Watsco, Inc. Class B\"",
+      "exchange": "NYSE",
+      "haltDate": "2026-07-07",
+      "haltTime": "09:35:55",
+      "reasonCode": "",
+      "reason": "LULD Pause",
+      "resumptionDate": "2026-07-07",
+      "resumptionTime": "09:41:23",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
       "symbol": "CLRO",
@@ -24966,6 +24978,30 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
+      "symbol": "OLPX",
+      "name": "Olaplex Holdings, Inc. CM",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-06",
+      "haltTime": "19:50:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionTime": "00:00:01",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "SVC",
+      "name": "Service Prop Trt Cmn",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-06",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "PFSA",
       "name": "Profusa, Inc.",
       "exchange": "Nasdaq",
@@ -24999,30 +25035,6 @@
       "reason": "News Pending",
       "resumptionDate": "",
       "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "SVC",
-      "name": "Service Prop Trt Cmn",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-06",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "OLPX",
-      "name": "Olaplex Holdings, Inc. CM",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-06",
-      "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionTime": "00:00:01",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -25590,104 +25602,8 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "NIPG",
-      "name": "NIP Group Inc. American Dep Sh",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-02",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "NIVF",
-      "name": "NewGenIvf Group Limited Os",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-02",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "INLF",
-      "name": "INLIF LIMITED Cl A OS",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-02",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "TXXS",
-      "name": "21Shares 2x Long Sui ETF",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-02",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "NIVFW",
-      "name": "NewGenIvf Group Limited Wt",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-02",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:05:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "JZ",
-      "name": "Jianzhi Education Tech ADS",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-02",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "HKIT",
-      "name": "Hitek Global A OS",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-02",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "ABTC",
-      "name": "American Bitcoin Corp. Cl A CS",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-07-02",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "SNAL",
-      "name": "Snail, Inc. Cmn A",
+      "symbol": "NTCL",
+      "name": "NETCLASS TECH INC Cl A Ord Shs",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-02",
       "haltTime": "19:50:00",
@@ -25710,6 +25626,42 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
+      "symbol": "SNAL",
+      "name": "Snail, Inc. Cmn A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-02",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "ABTC",
+      "name": "American Bitcoin Corp. Cl A CS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-02",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "HKIT",
+      "name": "Hitek Global A OS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-02",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "NVVE",
       "name": "Nuvve Holding Corp. Cmn Stk",
       "exchange": "Nasdaq",
@@ -25722,8 +25674,68 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "NTCL",
-      "name": "NETCLASS TECH INC Cl A Ord Shs",
+      "symbol": "NIVFW",
+      "name": "NewGenIvf Group Limited Wt",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-02",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:05:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "TXXS",
+      "name": "21Shares 2x Long Sui ETF",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-02",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "INLF",
+      "name": "INLIF LIMITED Cl A OS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-02",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "NIVF",
+      "name": "NewGenIvf Group Limited Os",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-02",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "NIPG",
+      "name": "NIP Group Inc. American Dep Sh",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-07-02",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "JZ",
+      "name": "Jianzhi Education Tech ADS",
       "exchange": "Nasdaq",
       "haltDate": "2026-07-02",
       "haltTime": "19:50:00",
@@ -27030,8 +27042,8 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "MQ",
-      "name": "Marqeta, Inc. Cl A Cm St",
+      "symbol": "RMTI",
+      "name": "Rockwell Medical, Inc.",
       "exchange": "Nasdaq",
       "haltDate": "2026-06-30",
       "haltTime": "19:50:00",
@@ -27042,8 +27054,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "RMTI",
-      "name": "Rockwell Medical, Inc.",
+      "symbol": "MQ",
+      "name": "Marqeta, Inc. Cl A Cm St",
       "exchange": "Nasdaq",
       "haltDate": "2026-06-30",
       "haltTime": "19:50:00",
@@ -27546,18 +27558,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "GWH.W",
-      "name": "ESS Tech, Inc. Warrant",
-      "exchange": "NYSE",
-      "haltDate": "2026-06-30",
-      "haltTime": "11:47:43",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "17:06:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "GWH WS",
       "name": "\"ESS Tech, Inc. Warrant exercisable for one-fifteenth of a share of Common Stock at an exercise price of $172.50 per share\"",
       "exchange": "NYSE",
@@ -27568,6 +27568,18 @@
       "resumptionDate": "",
       "resumptionTime": "See Subsequent Halt",
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "GWH.W",
+      "name": "ESS Tech, Inc. Warrant",
+      "exchange": "NYSE",
+      "haltDate": "2026-06-30",
+      "haltTime": "11:47:43",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "17:06:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
       "symbol": "LGCL",
@@ -27882,6 +27894,18 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
+      "symbol": "WZRD",
+      "name": "Opportunistic Trader ETF",
+      "exchange": "Non NASDAQ",
+      "haltDate": "2026-06-30",
+      "haltTime": "09:30:16",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-06-30",
+      "resumptionTime": "09:35:16",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "WSO B",
       "name": "\"Watsco, Inc. Class B\"",
       "exchange": "NYSE",
@@ -27897,18 +27921,6 @@
       "symbol": "WSO.B",
       "name": "Watsco, Inc. Class B Common Stock",
       "exchange": "NYSE",
-      "haltDate": "2026-06-30",
-      "haltTime": "09:30:16",
-      "reasonCode": "M",
-      "reason": "Volatility Trading Pause (LULD)",
-      "resumptionDate": "2026-06-30",
-      "resumptionTime": "09:35:16",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "WZRD",
-      "name": "Opportunistic Trader ETF",
-      "exchange": "Non NASDAQ",
       "haltDate": "2026-06-30",
       "haltTime": "09:30:16",
       "reasonCode": "M",
@@ -28446,6 +28458,18 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
+      "symbol": "UBXG",
+      "name": "U-BX Tech Ltd Ord A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-29",
+      "haltTime": "09:30:15",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-06-29",
+      "resumptionTime": "09:35:15",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "WSO B",
       "name": "\"Watsco, Inc. Class B\"",
       "exchange": "NYSE",
@@ -28464,18 +28488,6 @@
       "haltDate": "2026-06-29",
       "haltTime": "09:30:15",
       "reasonCode": "M",
-      "reason": "Volatility Trading Pause (LULD)",
-      "resumptionDate": "2026-06-29",
-      "resumptionTime": "09:35:15",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "UBXG",
-      "name": "U-BX Tech Ltd Ord A",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-06-29",
-      "haltTime": "09:30:15",
-      "reasonCode": "LUDP",
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-06-29",
       "resumptionTime": "09:35:15",
@@ -28518,68 +28530,8 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "HONIV",
-      "name": "Honeywell Ex Dist When Issued",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-06-26",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "00:00:01",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "ZCMD",
-      "name": "Zhongchao Cl A Ordinary Shs",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-06-26",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "MNDR",
-      "name": "Mobile-health Ntwk Sltn Ord A",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-06-26",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "GIBOW",
-      "name": "GIBO Holdings Limited WTS",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-06-26",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:05:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "HONG",
-      "name": "Leverage Shares 2X Long HON Daily ETF",
-      "exchange": "Cboe BZX",
-      "haltDate": "2026-06-26",
-      "haltTime": "19:50:00",
-      "reasonCode": "",
-      "reason": "ETF Component Prices Not Available",
-      "resumptionDate": "",
-      "resumptionTime": "09:25:01",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
-      "symbol": "GDC",
-      "name": "GD Culture Group Limited",
+      "symbol": "GIBO",
+      "name": "GIBO Holdings Limited Cl A OS",
       "exchange": "Nasdaq",
       "haltDate": "2026-06-26",
       "haltTime": "19:50:00",
@@ -28614,8 +28566,68 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "GIBO",
-      "name": "GIBO Holdings Limited Cl A OS",
+      "symbol": "GDC",
+      "name": "GD Culture Group Limited",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-26",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "ZCMD",
+      "name": "Zhongchao Cl A Ordinary Shs",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-26",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "GIBOW",
+      "name": "GIBO Holdings Limited WTS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-26",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:05:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "HONG",
+      "name": "Leverage Shares 2X Long HON Daily ETF",
+      "exchange": "Cboe BZX",
+      "haltDate": "2026-06-26",
+      "haltTime": "19:50:00",
+      "reasonCode": "",
+      "reason": "ETF Component Prices Not Available",
+      "resumptionDate": "",
+      "resumptionTime": "09:25:01",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "HONIV",
+      "name": "Honeywell Ex Dist When Issued",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-26",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "00:00:01",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "MNDR",
+      "name": "Mobile-health Ntwk Sltn Ord A",
       "exchange": "Nasdaq",
       "haltDate": "2026-06-26",
       "haltTime": "19:50:00",
@@ -29334,6 +29346,18 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
+      "symbol": "NUWE",
+      "name": "Nuwellis, Inc.",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-25",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "RUBI",
       "name": "Rubico Inc.",
       "exchange": "Nasdaq",
@@ -29348,18 +29372,6 @@
     {
       "symbol": "VRAX",
       "name": "Virax Biolabs Group Limited",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-06-25",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "NUWE",
-      "name": "Nuwellis, Inc.",
       "exchange": "Nasdaq",
       "haltDate": "2026-06-25",
       "haltTime": "19:50:00",
@@ -31086,6 +31098,30 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
+      "symbol": "YYGH",
+      "name": "YY Group Holding Limited",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-22",
+      "haltTime": "19:50:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-06-23",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "FCUV",
+      "name": "Focus Universal Inc. Cm",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-22",
+      "haltTime": "19:50:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-06-23",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "ILLR",
       "name": "Triller Group Inc Common Stock",
       "exchange": "Nasdaq",
@@ -31107,30 +31143,6 @@
       "reason": "News and Resumption Times",
       "resumptionDate": "2026-06-23",
       "resumptionTime": "09:05:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "FCUV",
-      "name": "Focus Universal Inc. Cm",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-06-22",
-      "haltTime": "19:50:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-06-23",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "YYGH",
-      "name": "YY Group Holding Limited",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-06-22",
-      "haltTime": "19:50:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-06-23",
-      "resumptionTime": "09:00:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -31374,18 +31386,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "BIO.B",
-      "name": "Bio-Rad Laboratories, Inc. Class B  Common Stock",
-      "exchange": "NYSE",
-      "haltDate": "2026-06-22",
-      "haltTime": "09:56:01",
-      "reasonCode": "M",
-      "reason": "Volatility Trading Pause (LULD)",
-      "resumptionDate": "2026-06-22",
-      "resumptionTime": "10:27:44",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "BIO B",
       "name": "\"Bio-Rad Laboratories, Inc. Class B\"",
       "exchange": "NYSE",
@@ -31396,6 +31396,18 @@
       "resumptionDate": "2026-06-22",
       "resumptionTime": "10:27:44",
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "BIO.B",
+      "name": "Bio-Rad Laboratories, Inc. Class B  Common Stock",
+      "exchange": "NYSE",
+      "haltDate": "2026-06-22",
+      "haltTime": "09:56:01",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-06-22",
+      "resumptionTime": "10:27:44",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
       "symbol": "QXL",
@@ -31566,20 +31578,44 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "WLDSW",
-      "name": "Wearable Devices Ltd. Wt",
+      "symbol": "POM",
+      "name": "POMDOCTOR LIMITED ADS",
       "exchange": "Nasdaq",
       "haltDate": "2026-06-18",
       "haltTime": "19:50:00",
       "reasonCode": "T1",
       "reason": "News Pending",
       "resumptionDate": "",
-      "resumptionTime": "09:05:00",
+      "resumptionTime": "09:00:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "LHSW",
-      "name": "Lianhe Swl Intl Gp Ld Cl A Ord",
+      "symbol": "WTO",
+      "name": "UTime Limited Ord Shs A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-18",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "BMGL",
+      "name": "Basel Medical Group Ltd Ord Sh",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-18",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "LABT",
+      "name": "Lakewood-Amedex Biothera Com S",
       "exchange": "Nasdaq",
       "haltDate": "2026-06-18",
       "haltTime": "19:50:00",
@@ -31614,27 +31650,15 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "BMGL",
-      "name": "Basel Medical Group Ltd Ord Sh",
+      "symbol": "WLDSW",
+      "name": "Wearable Devices Ltd. Wt",
       "exchange": "Nasdaq",
       "haltDate": "2026-06-18",
       "haltTime": "19:50:00",
       "reasonCode": "T1",
       "reason": "News Pending",
       "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "WTO",
-      "name": "UTime Limited Ord Shs A",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-06-18",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
+      "resumptionTime": "09:05:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -31650,20 +31674,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "LABT",
-      "name": "Lakewood-Amedex Biothera Com S",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-06-18",
-      "haltTime": "19:50:00",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "POM",
-      "name": "POMDOCTOR LIMITED ADS",
+      "symbol": "LHSW",
+      "name": "Lianhe Swl Intl Gp Ld Cl A Ord",
       "exchange": "Nasdaq",
       "haltDate": "2026-06-18",
       "haltTime": "19:50:00",
@@ -32298,18 +32310,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "WHLR",
-      "name": "Wheeler Real Estate Investment",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-06-17",
-      "haltTime": "19:50:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-06-18",
-      "resumptionTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "WHLRP",
       "name": "Wheeler REIT Cl B Prfd Stk",
       "exchange": "Nasdaq",
@@ -32355,6 +32355,18 @@
       "reason": "News and Resumption Times",
       "resumptionDate": "2026-06-18",
       "resumptionTime": "09:05:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "WHLR",
+      "name": "Wheeler Real Estate Investment",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-06-17",
+      "haltTime": "19:50:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-06-18",
+      "resumptionTime": "09:00:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
