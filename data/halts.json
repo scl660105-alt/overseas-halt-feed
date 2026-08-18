@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T17:26:20Z",
+  "lastUpdated": "2026-08-18T17:56:18Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
@@ -7,16 +7,29 @@
   "halts": [
     {
       "symbol": "IPST",
-      "name": "\"IP Strategy Holdings, Inc. Common Stock\"",
+      "name": "IP Strategy Holdings CS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-18",
+      "haltTime": "13:45:22",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-18",
+      "resumptionQuoteTime": "13:45:22",
+      "resumptionTradeTime": "13:50:22",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "IPST",
+      "name": "IP Strategy Holdings CS",
       "exchange": "Nasdaq",
       "haltDate": "2026-08-18",
       "haltTime": "13:25:32",
-      "reasonCode": "",
-      "reason": "LULD Pause",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-18",
+      "resumptionQuoteTime": "13:25:32",
+      "resumptionTradeTime": "13:30:32",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
       "symbol": "PBM",
@@ -916,8 +929,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "RCON",
-      "name": "Recon Tch Ltd Cl A Ord",
+      "symbol": "CXAI",
+      "name": "CXApp Inc. Class A Common Stk",
       "exchange": "Nasdaq",
       "haltDate": "2026-08-17",
       "haltTime": "19:50:00",
@@ -942,8 +955,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "CXAI",
-      "name": "CXApp Inc. Class A Common Stk",
+      "symbol": "RCON",
+      "name": "Recon Tch Ltd Cl A Ord",
       "exchange": "Nasdaq",
       "haltDate": "2026-08-17",
       "haltTime": "19:50:00",
@@ -1124,8 +1137,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "EFTY",
-      "name": "Etoiles Capital Group Cl A OS",
+      "symbol": "PLTS",
+      "name": "Platinum Analytics Cymn Ord A",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-03",
       "haltTime": "19:50:00",
@@ -1137,8 +1150,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "PLTS",
-      "name": "Platinum Analytics Cymn Ord A",
+      "symbol": "EFTY",
+      "name": "Etoiles Capital Group Cl A OS",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-03",
       "haltTime": "19:50:00",
