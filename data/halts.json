@@ -1,10 +1,23 @@
 {
-  "lastUpdated": "2026-08-18T19:48:45Z",
+  "lastUpdated": "2026-08-18T20:11:18Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "SLE",
+      "name": "Super League Enterprise",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-18",
+      "haltTime": "15:49:50",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-18",
+      "resumptionQuoteTime": "15:49:50",
+      "resumptionTradeTime": "16:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "PFSA",
       "name": "Profusa, Inc.",
@@ -15,7 +28,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-08-18",
       "resumptionQuoteTime": "15:46:21",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "16:00:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -1046,19 +1059,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "NTWOU",
-      "name": "Newbury Street II Acq Unit",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-08-18",
-      "haltTime": "07:25:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-08-18",
-      "resumptionQuoteTime": "08:00:00",
-      "resumptionTradeTime": "08:05:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "NTWO",
       "name": "Newbury Street II Acq Cl A OS",
       "exchange": "Nasdaq",
@@ -1074,6 +1074,19 @@
     {
       "symbol": "NTWOW",
       "name": "Newbury Street II Acq Warrant",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-18",
+      "haltTime": "07:25:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-08-18",
+      "resumptionQuoteTime": "08:00:00",
+      "resumptionTradeTime": "08:05:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "NTWOU",
+      "name": "Newbury Street II Acq Unit",
       "exchange": "Nasdaq",
       "haltDate": "2026-08-18",
       "haltTime": "07:25:00",
@@ -1176,21 +1189,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "GPUS PRD",
-      "name": "\"Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock\"",
-      "exchange": "NYSE American",
-      "haltDate": "2026-08-14",
-      "haltTime": "14:15:13",
-      "reasonCode": "",
-      "reason": "Regulatory Concern",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
-      "symbol": "GPUS",
-      "name": "Hyperscale Data, Inc.",
+      "symbol": "GPUS-D",
+      "name": "Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock",
       "exchange": "AMEX",
       "haltDate": "2026-08-14",
       "haltTime": "14:15:13",
@@ -1202,8 +1202,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "GPUS-D",
-      "name": "Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock",
+      "symbol": "GPUS",
+      "name": "Hyperscale Data, Inc.",
       "exchange": "AMEX",
       "haltDate": "2026-08-14",
       "haltTime": "14:15:13",
@@ -1369,19 +1369,6 @@
       "resumptionQuoteTime": "",
       "resumptionTradeTime": "",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "SVA",
-      "name": "\"Sinovac Biotech, Ltd\"",
-      "exchange": "Nasdaq",
-      "haltDate": "2025-05-19",
-      "haltTime": "00:21:31",
-      "reasonCode": "",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
       "symbol": "SVA",
