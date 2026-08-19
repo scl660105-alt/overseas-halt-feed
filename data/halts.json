@@ -1,10 +1,88 @@
 {
-  "lastUpdated": "2026-08-19T16:14:12Z",
+  "lastUpdated": "2026-08-19T16:51:11Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "RDACU",
+      "name": "Rising Dragon Acq Ut",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-19",
+      "haltTime": "12:27:42",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-19",
+      "resumptionQuoteTime": "12:27:42",
+      "resumptionTradeTime": "12:32:42",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "RDAC",
+      "name": "Rising Dragon Acq Cp Ord",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-19",
+      "haltTime": "12:26:56",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-19",
+      "resumptionQuoteTime": "12:26:56",
+      "resumptionTradeTime": "12:31:56",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "RDAC",
+      "name": "Rising Dragon Acquisition Corp. Ordinary Shares",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-19",
+      "haltTime": "12:26:55",
+      "reasonCode": "",
+      "reason": "LULD Pause",
+      "resumptionDate": "2026-08-19",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "12:31:55",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "CDTG",
+      "name": "CDT Environmental Technology I",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-19",
+      "haltTime": "12:24:03",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-19",
+      "resumptionQuoteTime": "12:24:03",
+      "resumptionTradeTime": "12:34:03",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "ATC",
+      "name": "GraniteShares Autocallable COIN ETF",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-19",
+      "haltTime": "12:21:02",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-19",
+      "resumptionQuoteTime": "12:21:02",
+      "resumptionTradeTime": "12:26:02",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "CDTG",
+      "name": "CDT Environmental Technology I",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-19",
+      "haltTime": "12:17:56",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-19",
+      "resumptionQuoteTime": "12:17:56",
+      "resumptionTradeTime": "12:22:56",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "MRA",
       "name": "GraniteShares Autocallable MARA ETF",
@@ -15,7 +93,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-08-19",
       "resumptionQuoteTime": "12:10:05",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "12:15:05",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -28,7 +106,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-08-19",
       "resumptionQuoteTime": "12:09:01",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "12:14:01",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -80,7 +158,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-08-19",
       "resumptionQuoteTime": "12:03:08",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "12:13:08",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -747,8 +825,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "GPUS-D",
-      "name": "Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock",
+      "symbol": "GPUS",
+      "name": "Hyperscale Data, Inc.",
       "exchange": "AMEX",
       "haltDate": "2026-08-14",
       "haltTime": "14:15:13",
@@ -760,8 +838,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "GPUS",
-      "name": "Hyperscale Data, Inc.",
+      "symbol": "GPUS-D",
+      "name": "Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock",
       "exchange": "AMEX",
       "haltDate": "2026-08-14",
       "haltTime": "14:15:13",
@@ -877,19 +955,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "PLTS",
-      "name": "Platinum Analytics Cymn Ord A",
-      "exchange": "Nasdaq",
-      "haltDate": "2025-10-03",
-      "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "EFTY",
       "name": "Etoiles Capital Group Cl A OS",
       "exchange": "Nasdaq",
@@ -903,8 +968,21 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "UCFI",
-      "name": "CN Healthy Food Tech Group CS",
+      "symbol": "PLTS",
+      "name": "Platinum Analytics Cymn Ord A",
+      "exchange": "Nasdaq",
+      "haltDate": "2025-10-03",
+      "haltTime": "19:50:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "UCFIW",
+      "name": "CN Healthy Food Tech Warrant",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-01",
       "haltTime": "11:28:10",
@@ -916,8 +994,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "UCFIW",
-      "name": "CN Healthy Food Tech Warrant",
+      "symbol": "UCFI",
+      "name": "CN Healthy Food Tech Group CS",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-01",
       "haltTime": "11:28:10",
