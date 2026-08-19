@@ -1,10 +1,23 @@
 {
-  "lastUpdated": "2026-08-19T19:35:37Z",
+  "lastUpdated": "2026-08-19T19:58:10Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "FVNNU",
+      "name": "Future Vision II Acq Cp Units",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-19",
+      "haltTime": "15:57:35",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-19",
+      "resumptionQuoteTime": "15:57:35",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "BTCT",
       "name": "BTC Digital Ltd Ord",
@@ -15,7 +28,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-08-19",
       "resumptionQuoteTime": "15:33:03",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "15:38:03",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
