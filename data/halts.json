@@ -1,10 +1,75 @@
 {
-  "lastUpdated": "2026-08-20T14:44:48Z",
+  "lastUpdated": "2026-08-20T15:19:26Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "STLR",
+      "name": "Stellar ETF",
+      "exchange": "Non NASDAQ",
+      "haltDate": "2026-08-20",
+      "haltTime": "11:14:48",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "FBDT",
+      "name": "First Breach Inc. Cmn Stk",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-20",
+      "haltTime": "11:14:40",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-20",
+      "resumptionQuoteTime": "11:14:40",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "GLU-A",
+      "name": "",
+      "exchange": "AMEX",
+      "haltDate": "2026-08-20",
+      "haltTime": "11:01:14",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-20",
+      "resumptionQuoteTime": "11:06:14",
+      "resumptionTradeTime": "11:06:14",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "IPST",
+      "name": "IP Strategy Holdings CS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-20",
+      "haltTime": "10:55:20",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-20",
+      "resumptionQuoteTime": "10:55:20",
+      "resumptionTradeTime": "11:00:20",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "DBGI",
+      "name": "Digital Brands Group, Inc. Cm",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-20",
+      "haltTime": "10:46:59",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-20",
+      "resumptionQuoteTime": "10:46:59",
+      "resumptionTradeTime": "10:51:59",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "IPST",
       "name": "IP Strategy Holdings CS",
@@ -15,7 +80,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-08-20",
       "resumptionQuoteTime": "10:41:19",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "10:51:19",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -28,7 +93,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-08-20",
       "resumptionQuoteTime": "10:36:09",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "10:46:09",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -539,6 +604,32 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
+      "symbol": "CURX",
+      "name": "Curanex Pharmaceuticals Inc CS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-19",
+      "haltTime": "19:50:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-08-20",
+      "resumptionQuoteTime": "08:55:00",
+      "resumptionTradeTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "LBRDK",
+      "name": "Liberty Broadband Cl C Cmn",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-19",
+      "haltTime": "19:50:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "LBRDP",
       "name": "Liberty Broadband Cp Ser A Pfd",
       "exchange": "Nasdaq",
@@ -565,47 +656,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "LBRDK",
-      "name": "Liberty Broadband Cl C Cmn",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-08-19",
-      "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "CURX",
-      "name": "Curanex Pharmaceuticals Inc CS",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-08-19",
-      "haltTime": "19:50:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-08-20",
-      "resumptionQuoteTime": "08:55:00",
-      "resumptionTradeTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "GPUS PRD",
-      "name": "\"Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock\"",
-      "exchange": "NYSE American",
-      "haltDate": "2026-08-14",
-      "haltTime": "14:15:13",
-      "reasonCode": "",
-      "reason": "Regulatory Concern",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
-      "symbol": "GPUS",
-      "name": "Hyperscale Data, Inc.",
+      "symbol": "GPUS-D",
+      "name": "Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock",
       "exchange": "AMEX",
       "haltDate": "2026-08-14",
       "haltTime": "14:15:13",
@@ -617,8 +669,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "GPUS-D",
-      "name": "Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock",
+      "symbol": "GPUS",
+      "name": "Hyperscale Data, Inc.",
       "exchange": "AMEX",
       "haltDate": "2026-08-14",
       "haltTime": "14:15:13",
@@ -784,19 +836,6 @@
       "resumptionQuoteTime": "",
       "resumptionTradeTime": "",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "SVA",
-      "name": "\"Sinovac Biotech, Ltd\"",
-      "exchange": "Nasdaq",
-      "haltDate": "2025-05-19",
-      "haltTime": "00:21:31",
-      "reasonCode": "",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
       "symbol": "SVA",
