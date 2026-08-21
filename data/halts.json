@@ -1,10 +1,23 @@
 {
-  "lastUpdated": "2026-08-21T18:15:23Z",
+  "lastUpdated": "2026-08-21T19:02:16Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "FVNNU",
+      "name": "Future Vision II Acq Cp Units",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-21",
+      "haltTime": "14:55:36",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-21",
+      "resumptionQuoteTime": "14:55:36",
+      "resumptionTradeTime": "15:00:36",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "AIFU",
       "name": "AIFU Inc. Class A Ordinary Sh",
