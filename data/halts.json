@@ -1,10 +1,36 @@
 {
-  "lastUpdated": "2026-08-26T18:17:58Z",
+  "lastUpdated": "2026-08-26T20:16:18Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "NTZ",
+      "name": "\"Natuzzi, S.p.A\"",
+      "exchange": "NYSE",
+      "haltDate": "2026-08-26",
+      "haltTime": "16:09:09",
+      "reasonCode": "",
+      "reason": "News Dissemination",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "VMAR",
+      "name": "Vision Marine Tech Cm Sh",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-08-26",
+      "haltTime": "14:34:58",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-08-26",
+      "resumptionQuoteTime": "14:34:58",
+      "resumptionTradeTime": "14:39:58",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "DAIC",
       "name": "CID HoldCo, Inc. Common Stock",
