@@ -1,10 +1,75 @@
 {
-  "lastUpdated": "2026-09-10T19:09:34Z",
+  "lastUpdated": "2026-09-10T21:39:39Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "EHLD",
+      "name": "Euroholdings Ltd. Cmn Stk",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-09-10",
+      "haltTime": "15:50:50",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-09-10",
+      "resumptionQuoteTime": "15:50:50",
+      "resumptionTradeTime": "16:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "HCAI",
+      "name": "Huachen AI Parking Mg Cl A OS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-09-10",
+      "haltTime": "15:47:21",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-09-10",
+      "resumptionQuoteTime": "15:47:21",
+      "resumptionTradeTime": "16:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "HCAI",
+      "name": "Huachen AI Parking Mg Cl A OS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-09-10",
+      "haltTime": "15:42:03",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-09-10",
+      "resumptionQuoteTime": "15:42:03",
+      "resumptionTradeTime": "15:47:03",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "TRAD U",
+      "name": "\"APEX Tech Acquisition Inc. Units, each consisting of one Class A ordinary share and one right to receive one sixth (1/6) of a Class A ordinary share\"",
+      "exchange": "NYSE",
+      "haltDate": "2026-09-10",
+      "haltTime": "15:19:43",
+      "reasonCode": "",
+      "reason": "LULD Pause",
+      "resumptionDate": "2026-09-10",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "15:24:43",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "TRAD=",
+      "name": "",
+      "exchange": "NYSE",
+      "haltDate": "2026-09-10",
+      "haltTime": "15:19:43",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-09-10",
+      "resumptionQuoteTime": "15:24:43",
+      "resumptionTradeTime": "15:24:43",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "MKDW",
       "name": "MKDWELL Tech Inc. OS",
@@ -15,7 +80,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-09-10",
       "resumptionQuoteTime": "15:02:22",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "15:12:22",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -552,8 +617,8 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "RGTZ",
-      "name": "Defiance Daily Target 2x Short RGTI ETF",
+      "symbol": "SMCZ",
+      "name": "Defiance Daily Target 2X Short SMCI ETF",
       "exchange": "Nasdaq",
       "haltDate": "2026-09-09",
       "haltTime": "19:50:00",
@@ -578,19 +643,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "OKLL",
-      "name": "Defiance Daily Target 2x Long OKLO ETF",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-09-09",
-      "haltTime": "19:50:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-09-10",
-      "resumptionQuoteTime": "08:55:00",
-      "resumptionTradeTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "QBTZ",
       "name": "Defiance Daily Target 2x Short QBTS ETF",
       "exchange": "Nasdaq",
@@ -604,8 +656,21 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "SMCZ",
-      "name": "Defiance Daily Target 2X Short SMCI ETF",
+      "symbol": "RGTZ",
+      "name": "Defiance Daily Target 2x Short RGTI ETF",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-09-09",
+      "haltTime": "19:50:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-09-10",
+      "resumptionQuoteTime": "08:55:00",
+      "resumptionTradeTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "OKLL",
+      "name": "Defiance Daily Target 2x Long OKLO ETF",
       "exchange": "Nasdaq",
       "haltDate": "2026-09-09",
       "haltTime": "19:50:00",
@@ -734,8 +799,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "PLTS",
-      "name": "Platinum Analytics Cymn Ord A",
+      "symbol": "EFTY",
+      "name": "Etoiles Capital Group Cl A OS",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-03",
       "haltTime": "19:50:00",
@@ -747,8 +812,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "EFTY",
-      "name": "Etoiles Capital Group Cl A OS",
+      "symbol": "PLTS",
+      "name": "Platinum Analytics Cymn Ord A",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-03",
       "haltTime": "19:50:00",
