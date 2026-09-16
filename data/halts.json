@@ -1,10 +1,23 @@
 {
-  "lastUpdated": "2026-09-16T19:43:57Z",
+  "lastUpdated": "2026-09-16T22:23:46Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "LGVN",
+      "name": "Longeveron Inc. Class A Cmn",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-09-16",
+      "haltTime": "16:55:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-09-16",
+      "resumptionQuoteTime": "17:50:00",
+      "resumptionTradeTime": "17:55:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "DLXY",
       "name": "Delixy Holdings Ltd Cl A Ord",
@@ -15,7 +28,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-09-16",
       "resumptionQuoteTime": "15:42:14",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "16:00:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -28,7 +41,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-09-16",
       "resumptionQuoteTime": "15:37:22",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "15:47:22",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -409,19 +422,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "CIEG",
-      "name": "Leverage Shares 2X Long CIEN Daily ETF",
-      "exchange": "NYSE",
-      "haltDate": "2026-09-16",
-      "haltTime": "13:43:28",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-09-16",
-      "resumptionQuoteTime": "14:21:43",
-      "resumptionTradeTime": "14:21:43",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "CIEX",
       "name": "Tradr 2X Long CIEN Daily ETF",
       "exchange": "Non NASDAQ",
@@ -432,6 +432,19 @@
       "resumptionDate": "2026-09-16",
       "resumptionQuoteTime": "14:16:43",
       "resumptionTradeTime": "14:16:43",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "CIEG",
+      "name": "Leverage Shares 2X Long CIEN Daily ETF",
+      "exchange": "NYSE",
+      "haltDate": "2026-09-16",
+      "haltTime": "13:43:28",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-09-16",
+      "resumptionQuoteTime": "14:21:43",
+      "resumptionTradeTime": "14:21:43",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
