@@ -1,10 +1,62 @@
 {
-  "lastUpdated": "2026-09-29T17:59:45Z",
+  "lastUpdated": "2026-09-29T22:10:13Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "CTNM",
+      "name": "Contineum Therapeutics Cl A CS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-09-29",
+      "haltTime": "15:50:23",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-09-29",
+      "resumptionQuoteTime": "15:50:23",
+      "resumptionTradeTime": "16:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "MWHS",
+      "name": "Skylar Electricity Futures ETF",
+      "exchange": "NYSE Arca",
+      "haltDate": "2026-09-29",
+      "haltTime": "15:16:58",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-09-29",
+      "resumptionQuoteTime": "15:21:58",
+      "resumptionTradeTime": "15:21:58",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "LSE",
+      "name": "Leishen Energy Hldgs Cl A Ord",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-09-29",
+      "haltTime": "14:24:56",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-09-29",
+      "resumptionQuoteTime": "14:24:56",
+      "resumptionTradeTime": "14:29:56",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "NFEGP",
+      "name": "New Frtrs Enrgy Sr A Md Cv Pfd",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-09-29",
+      "haltTime": "14:20:01",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-09-29",
+      "resumptionQuoteTime": "14:20:01",
+      "resumptionTradeTime": "14:25:01",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "BGIN",
       "name": "Bgin Blockchain Limitd Cl A OS",
@@ -110,19 +162,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "GPUS PRD",
-      "name": "\"Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock\"",
-      "exchange": "NYSE American",
-      "haltDate": "2026-09-29",
-      "haltTime": "11:46:18",
-      "reasonCode": "",
-      "reason": "LULD Pause",
-      "resumptionDate": "2026-09-29",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "11:51:18",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
       "symbol": "XRPN",
       "name": "Armada Acquisition Co Cl A OS",
       "exchange": "Nasdaq",
@@ -206,11 +245,11 @@
       "exchange": "AMEX",
       "haltDate": "2026-09-29",
       "haltTime": "09:39:27",
-      "reasonCode": "H11",
-      "reason": "Regulatory Concern",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "reasonCode": "D",
+      "reason": "Security Deletion",
+      "resumptionDate": "2026-09-29",
+      "resumptionQuoteTime": "16:34:00",
+      "resumptionTradeTime": "16:34:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -240,19 +279,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "GBTG",
-      "name": "\"Global Business Travel Group, Inc.\"",
-      "exchange": "NYSE",
-      "haltDate": "2026-09-29",
-      "haltTime": "08:16:36",
-      "reasonCode": "",
-      "reason": "Merger Effective",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
       "symbol": "AMZE",
       "name": "Amaze Holdings, Inc. Common Stock",
       "exchange": "AMEX",
@@ -266,29 +292,29 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "ONMD",
-      "name": "OneMedNet Corp Class A Cmn",
+      "symbol": "CDTTW",
+      "name": "CDT Equity Inc. Warrant",
       "exchange": "Nasdaq",
       "haltDate": "2026-09-28",
       "haltTime": "19:50:00",
       "reasonCode": "T3",
       "reason": "News and Resumption Times",
       "resumptionDate": "2026-09-29",
-      "resumptionQuoteTime": "08:55:00",
-      "resumptionTradeTime": "09:00:00",
+      "resumptionQuoteTime": "09:00:00",
+      "resumptionTradeTime": "09:05:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "CDT",
-      "name": "CDT Equity Inc. Common Stock",
+      "symbol": "ONMDW",
+      "name": "OneMedNet Corp Warrant",
       "exchange": "Nasdaq",
       "haltDate": "2026-09-28",
       "haltTime": "19:50:00",
       "reasonCode": "T3",
       "reason": "News and Resumption Times",
       "resumptionDate": "2026-09-29",
-      "resumptionQuoteTime": "08:55:00",
-      "resumptionTradeTime": "09:00:00",
+      "resumptionQuoteTime": "09:00:00",
+      "resumptionTradeTime": "09:05:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -331,29 +357,29 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "CDTTW",
-      "name": "CDT Equity Inc. Warrant",
+      "symbol": "CDT",
+      "name": "CDT Equity Inc. Common Stock",
       "exchange": "Nasdaq",
       "haltDate": "2026-09-28",
       "haltTime": "19:50:00",
       "reasonCode": "T3",
       "reason": "News and Resumption Times",
       "resumptionDate": "2026-09-29",
-      "resumptionQuoteTime": "09:00:00",
-      "resumptionTradeTime": "09:05:00",
+      "resumptionQuoteTime": "08:55:00",
+      "resumptionTradeTime": "09:00:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "ONMDW",
-      "name": "OneMedNet Corp Warrant",
+      "symbol": "ONMD",
+      "name": "OneMedNet Corp Class A Cmn",
       "exchange": "Nasdaq",
       "haltDate": "2026-09-28",
       "haltTime": "19:50:00",
       "reasonCode": "T3",
       "reason": "News and Resumption Times",
       "resumptionDate": "2026-09-29",
-      "resumptionQuoteTime": "09:00:00",
-      "resumptionTradeTime": "09:05:00",
+      "resumptionQuoteTime": "08:55:00",
+      "resumptionTradeTime": "09:00:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -362,25 +388,12 @@
       "exchange": "NYSE",
       "haltDate": "2026-09-28",
       "haltTime": "14:31:51",
-      "reasonCode": "H11",
-      "reason": "Regulatory Concern",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "reasonCode": "D",
+      "reason": "Security Deletion",
+      "resumptionDate": "2026-09-29",
+      "resumptionQuoteTime": "16:34:00",
+      "resumptionTradeTime": "16:34:00",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "BKKT WS",
-      "name": "\"Bakkt, Inc. Warrants to purchase Class A Common Stock Each Warrant entitles to purchase 1/25th of a share of Class A common stock at an exercise price\"",
-      "exchange": "NYSE",
-      "haltDate": "2026-09-22",
-      "haltTime": "16:15:52",
-      "reasonCode": "",
-      "reason": "Regulatory Concern",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
       "symbol": "BKKT.W",
@@ -524,19 +537,6 @@
       "resumptionQuoteTime": "",
       "resumptionTradeTime": "",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "SVA",
-      "name": "\"Sinovac Biotech, Ltd\"",
-      "exchange": "Nasdaq",
-      "haltDate": "2025-05-19",
-      "haltTime": "00:21:31",
-      "reasonCode": "",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
       "symbol": "SVA",
