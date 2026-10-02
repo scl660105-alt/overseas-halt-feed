@@ -1,10 +1,36 @@
 {
-  "lastUpdated": "2026-10-01T22:49:11Z",
+  "lastUpdated": "2026-10-02T01:53:29Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "RETO",
+      "name": "ReTo Eco-Solutions Cl A Shs",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-10-01",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "ZCMD",
+      "name": "Zhongchao Cl A Ordinary Shs",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-10-01",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "GWH",
       "name": "ESS Tech, Inc. Common Stock",
@@ -95,19 +121,6 @@
       "resumptionQuoteTime": "14:13:14",
       "resumptionTradeTime": "14:38:15",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "AHT PRF",
-      "name": "\"Ashford Hospitality Trust, Inc.\"",
-      "exchange": "NYSE",
-      "haltDate": "2026-10-01",
-      "haltTime": "14:12:19",
-      "reasonCode": "",
-      "reason": "LULD Pause",
-      "resumptionDate": "2026-10-01",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "14:17:19",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
       "symbol": "AHT-F",
@@ -851,32 +864,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "NSTS",
-      "name": "NSTS Bancorp, Inc. Cm St",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-09-30",
-      "haltTime": "19:50:00",
-      "reasonCode": "T12",
-      "reason": "Additional Information Requested by Nasdaq",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "BGM",
-      "name": "BGM Group Ltd. Class A Ord Shs",
-      "exchange": "Nasdaq",
-      "haltDate": "2026-09-30",
-      "haltTime": "19:50:00",
-      "reasonCode": "T3",
-      "reason": "News and Resumption Times",
-      "resumptionDate": "2026-10-01",
-      "resumptionQuoteTime": "08:55:00",
-      "resumptionTradeTime": "09:00:00",
-      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
       "symbol": "FSEA",
       "name": "First Seacoast Bancorp, Inc.",
       "exchange": "Nasdaq",
@@ -916,6 +903,32 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
+      "symbol": "BGM",
+      "name": "BGM Group Ltd. Class A Ord Shs",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-09-30",
+      "haltTime": "19:50:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-10-01",
+      "resumptionQuoteTime": "08:55:00",
+      "resumptionTradeTime": "09:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "NSTS",
+      "name": "NSTS Bancorp, Inc. Cm St",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-09-30",
+      "haltTime": "19:50:00",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
       "symbol": "NTRBW",
       "name": "Nutriband WT",
       "exchange": "Nasdaq",
@@ -940,19 +953,6 @@
       "resumptionQuoteTime": "",
       "resumptionTradeTime": "",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "BKKT WS",
-      "name": "\"Bakkt, Inc. Warrants to purchase Class A Common Stock Each Warrant entitles to purchase 1/25th of a share of Class A common stock at an exercise price\"",
-      "exchange": "NYSE",
-      "haltDate": "2026-09-22",
-      "haltTime": "16:15:52",
-      "reasonCode": "",
-      "reason": "Regulatory Concern",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
       "symbol": "HCHL",
@@ -1046,8 +1046,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "UCFI",
-      "name": "CN Healthy Food Tech Group CS",
+      "symbol": "UCFIW",
+      "name": "CN Healthy Food Tech Warrant",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-01",
       "haltTime": "11:28:10",
@@ -1059,8 +1059,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "UCFIW",
-      "name": "CN Healthy Food Tech Warrant",
+      "symbol": "UCFI",
+      "name": "CN Healthy Food Tech Group CS",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-01",
       "haltTime": "11:28:10",
@@ -1083,19 +1083,6 @@
       "resumptionQuoteTime": "",
       "resumptionTradeTime": "",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
-    },
-    {
-      "symbol": "SVA",
-      "name": "\"Sinovac Biotech, Ltd\"",
-      "exchange": "Nasdaq",
-      "haltDate": "2025-05-19",
-      "haltTime": "00:21:31",
-      "reasonCode": "",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
       "symbol": "SVA",
