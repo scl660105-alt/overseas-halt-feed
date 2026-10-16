@@ -1,10 +1,23 @@
 {
-  "lastUpdated": "2026-10-16T19:40:32Z",
+  "lastUpdated": "2026-10-16T22:12:55Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "CHWM",
+      "name": "Chilwa Minerals Limited ADS",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-10-16",
+      "haltTime": "15:54:02",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-10-16",
+      "resumptionQuoteTime": "15:54:02",
+      "resumptionTradeTime": "16:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "IBO",
       "name": "Impact BioMedical, Inc. Common Stock",
