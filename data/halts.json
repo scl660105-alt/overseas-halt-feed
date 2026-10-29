@@ -1,10 +1,62 @@
 {
-  "lastUpdated": "2026-10-29T18:21:49Z",
+  "lastUpdated": "2026-10-29T22:54:10Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "FNGR",
+      "name": "FingerMotion, Inc. Cm St",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-10-29",
+      "haltTime": "16:25:00",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-10-29",
+      "resumptionQuoteTime": "16:45:00",
+      "resumptionTradeTime": "16:50:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "LTRYW",
+      "name": "Sports Entnmt Gmg Glb Cp Wts",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-10-29",
+      "haltTime": "16:00:10",
+      "reasonCode": "T12",
+      "reason": "Additional Information Requested by Nasdaq",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "MACI",
+      "name": "Melar Acquisition Cp I Ord A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-10-29",
+      "haltTime": "15:52:55",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-10-29",
+      "resumptionQuoteTime": "15:52:55",
+      "resumptionTradeTime": "16:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "WZRD",
+      "name": "Opportunistic Trader ETF",
+      "exchange": "Non NASDAQ",
+      "haltDate": "2026-10-29",
+      "haltTime": "14:59:36",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-10-29",
+      "resumptionQuoteTime": "15:09:36",
+      "resumptionTradeTime": "15:09:36",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "MF",
       "name": "MindForge Inc Ord A",
@@ -24,11 +76,11 @@
       "exchange": "NYSE",
       "haltDate": "2026-10-29",
       "haltTime": "13:59:29",
-      "reasonCode": "T1",
-      "reason": "News Pending",
-      "resumptionDate": "",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "",
+      "reasonCode": "T3",
+      "reason": "News and Resumption Times",
+      "resumptionDate": "2026-10-29",
+      "resumptionQuoteTime": "14:23:28",
+      "resumptionTradeTime": "14:23:28",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
@@ -136,19 +188,6 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "GTN A",
-      "name": "\"Gray Media, Inc. Class A\"",
-      "exchange": "NYSE",
-      "haltDate": "2026-10-29",
-      "haltTime": "12:17:57",
-      "reasonCode": "",
-      "reason": "LULD Pause",
-      "resumptionDate": "2026-10-29",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "13:02:05",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
       "symbol": "GTN.A",
       "name": "Gray Media, Inc. Class A Common Stock",
       "exchange": "NYSE",
@@ -160,6 +199,19 @@
       "resumptionQuoteTime": "13:02:05",
       "resumptionTradeTime": "13:02:05",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "GTN A",
+      "name": "\"Gray Media, Inc. Class A\"",
+      "exchange": "NYSE",
+      "haltDate": "2026-10-29",
+      "haltTime": "12:17:57",
+      "reasonCode": "",
+      "reason": "LULD Pause",
+      "resumptionDate": "2026-10-29",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "13:02:05",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
       "symbol": "GBC",
