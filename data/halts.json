@@ -1,10 +1,49 @@
 {
-  "lastUpdated": "2026-11-05T19:49:07Z",
+  "lastUpdated": "2026-11-06T00:36:50Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "CPU",
+      "name": "Amplify Top 10 Semiconductors ETF",
+      "exchange": "NYSE Arca",
+      "haltDate": "2026-11-05",
+      "haltTime": "15:55:20",
+      "reasonCode": "M",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-11-05",
+      "resumptionQuoteTime": "16:00:00",
+      "resumptionTradeTime": "16:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "RFAI",
+      "name": "RF Acq Cp II Ord",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-11-05",
+      "haltTime": "15:24:03",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-11-05",
+      "resumptionQuoteTime": "15:24:03",
+      "resumptionTradeTime": "15:29:03",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "IGGY",
+      "name": "AB International Growth ETF",
+      "exchange": "NYSE Arca",
+      "haltDate": "2026-11-05",
+      "haltTime": "15:15:04",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "NTCL",
       "name": "NETCLASS TECH INC Cl A Ord Shs",
@@ -15,7 +54,7 @@
       "reason": "Volatility Trading Pause (LULD)",
       "resumptionDate": "2026-11-05",
       "resumptionQuoteTime": "14:45:54",
-      "resumptionTradeTime": "",
+      "resumptionTradeTime": "14:50:54",
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
