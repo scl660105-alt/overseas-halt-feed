@@ -1,10 +1,36 @@
 {
-  "lastUpdated": "2026-11-12T19:47:09Z",
+  "lastUpdated": "2026-11-13T00:43:59Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "AERT",
+      "name": "Aeries Tech Ord A",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-11-12",
+      "haltTime": "15:22:48",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-11-12",
+      "resumptionQuoteTime": "15:22:48",
+      "resumptionTradeTime": "15:27:48",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "AIMD",
+      "name": "Ainos, Inc. Cmn Stk",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-11-12",
+      "haltTime": "15:20:58",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-11-12",
+      "resumptionQuoteTime": "15:20:58",
+      "resumptionTradeTime": "15:25:58",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "WZRD",
       "name": "Opportunistic Trader ETF",
