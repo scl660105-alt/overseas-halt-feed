@@ -1,10 +1,88 @@
 {
-  "lastUpdated": "2026-11-19T20:24:16Z",
+  "lastUpdated": "2026-11-20T01:51:12Z",
   "sources": {
     "nasdaq": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts",
     "nyse": "https://www.nyse.com/trade/trading-halts"
   },
   "halts": [
+    {
+      "symbol": "GNS",
+      "name": "Genius Group Limited",
+      "exchange": "NYSE American",
+      "haltDate": "2026-11-19",
+      "haltTime": "19:50:56",
+      "reasonCode": "",
+      "reason": "Corporate Action",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "SOS",
+      "name": "SOS Limited",
+      "exchange": "NYSE",
+      "haltDate": "2026-11-19",
+      "haltTime": "19:50:29",
+      "reasonCode": "",
+      "reason": "Corporate Action",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "NTCL",
+      "name": "NETCLASS TECH INC Cl A Ord Shs",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-11-19",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "NIXX",
+      "name": "Nixxy Inc Cmn",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-11-19",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "LICN",
+      "name": "Lichen Intl Ltd Cl A Ord",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-11-19",
+      "haltTime": "19:50:00",
+      "reasonCode": "T1",
+      "reason": "News Pending",
+      "resumptionDate": "",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
+    {
+      "symbol": "BUUU",
+      "name": "BUUU Group Limited Cl A Ord Sh",
+      "exchange": "Nasdaq",
+      "haltDate": "2026-11-19",
+      "haltTime": "15:50:13",
+      "reasonCode": "LUDP",
+      "reason": "Volatility Trading Pause (LULD)",
+      "resumptionDate": "2026-11-19",
+      "resumptionQuoteTime": "15:50:13",
+      "resumptionTradeTime": "16:00:00",
+      "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
+    },
     {
       "symbol": "RFAI",
       "name": "RF Acq Cp II Ord",
@@ -474,8 +552,8 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "YFOR",
-      "name": "YYForce Inc. Class A Ordinary Shares",
+      "symbol": "SNTI",
+      "name": "\"Senti Biosciences Holdings, Inc. Common Stock\"",
       "exchange": "Nasdaq",
       "haltDate": "2026-11-19",
       "haltTime": "02:49:48",
@@ -500,13 +578,52 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "SNTI",
-      "name": "\"Senti Biosciences Holdings, Inc. Common Stock\"",
+      "symbol": "YFOR",
+      "name": "YYForce Inc. Class A Ordinary Shares",
       "exchange": "Nasdaq",
       "haltDate": "2026-11-19",
       "haltTime": "02:49:48",
       "reasonCode": "",
       "reason": "News Pending",
+      "resumptionDate": "2026-11-19",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "09:00:00",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "SSG",
+      "name": "ProShares UltraShort Semiconductors",
+      "exchange": "NYSE Arca",
+      "haltDate": "2026-11-19",
+      "haltTime": "02:45:48",
+      "reasonCode": "",
+      "reason": "Corporate Action",
+      "resumptionDate": "2026-11-19",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "09:00:00",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "REW",
+      "name": "Proshares UltraShort Technology",
+      "exchange": "NYSE Arca",
+      "haltDate": "2026-11-19",
+      "haltTime": "02:45:48",
+      "reasonCode": "",
+      "reason": "Corporate Action",
+      "resumptionDate": "2026-11-19",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "09:00:00",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "RWM",
+      "name": "ProShares Short Russell2000",
+      "exchange": "NYSE Arca",
+      "haltDate": "2026-11-19",
+      "haltTime": "02:45:48",
+      "reasonCode": "",
+      "reason": "Corporate Action",
       "resumptionDate": "2026-11-19",
       "resumptionQuoteTime": "",
       "resumptionTradeTime": "09:00:00",
@@ -539,60 +656,8 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "RWM",
-      "name": "ProShares Short Russell2000",
-      "exchange": "NYSE Arca",
-      "haltDate": "2026-11-19",
-      "haltTime": "02:45:48",
-      "reasonCode": "",
-      "reason": "Corporate Action",
-      "resumptionDate": "2026-11-19",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "09:00:00",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
-      "symbol": "REW",
-      "name": "Proshares UltraShort Technology",
-      "exchange": "NYSE Arca",
-      "haltDate": "2026-11-19",
-      "haltTime": "02:45:48",
-      "reasonCode": "",
-      "reason": "Corporate Action",
-      "resumptionDate": "2026-11-19",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "09:00:00",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
-      "symbol": "SSG",
-      "name": "ProShares UltraShort Semiconductors",
-      "exchange": "NYSE Arca",
-      "haltDate": "2026-11-19",
-      "haltTime": "02:45:48",
-      "reasonCode": "",
-      "reason": "Corporate Action",
-      "resumptionDate": "2026-11-19",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "09:00:00",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
-      "symbol": "QID",
-      "name": "ProShares UltraShort QQQ",
-      "exchange": "NYSE Arca",
-      "haltDate": "2026-11-19",
-      "haltTime": "02:43:49",
-      "reasonCode": "",
-      "reason": "Corporate Action",
-      "resumptionDate": "2026-11-19",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "09:00:00",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
-      "symbol": "DUG",
-      "name": "ProShares UltraShort Energy",
+      "symbol": "MZZ",
+      "name": "ProShares UltraShort MidCap400",
       "exchange": "NYSE Arca",
       "haltDate": "2026-11-19",
       "haltTime": "02:43:49",
@@ -617,21 +682,8 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
-      "symbol": "DXD",
-      "name": "ProShares UltraShort Dow 30",
-      "exchange": "NYSE Arca",
-      "haltDate": "2026-11-19",
-      "haltTime": "02:43:49",
-      "reasonCode": "",
-      "reason": "Corporate Action",
-      "resumptionDate": "2026-11-19",
-      "resumptionQuoteTime": "",
-      "resumptionTradeTime": "09:00:00",
-      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
-    },
-    {
-      "symbol": "MZZ",
-      "name": "ProShares UltraShort MidCap400",
+      "symbol": "DUG",
+      "name": "ProShares UltraShort Energy",
       "exchange": "NYSE Arca",
       "haltDate": "2026-11-19",
       "haltTime": "02:43:49",
@@ -656,6 +708,32 @@
       "sourceUrl": "https://www.nyse.com/trade/trading-halts"
     },
     {
+      "symbol": "QID",
+      "name": "ProShares UltraShort QQQ",
+      "exchange": "NYSE Arca",
+      "haltDate": "2026-11-19",
+      "haltTime": "02:43:49",
+      "reasonCode": "",
+      "reason": "Corporate Action",
+      "resumptionDate": "2026-11-19",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "09:00:00",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
+      "symbol": "DXD",
+      "name": "ProShares UltraShort Dow 30",
+      "exchange": "NYSE Arca",
+      "haltDate": "2026-11-19",
+      "haltTime": "02:43:49",
+      "reasonCode": "",
+      "reason": "Corporate Action",
+      "resumptionDate": "2026-11-19",
+      "resumptionQuoteTime": "",
+      "resumptionTradeTime": "09:00:00",
+      "sourceUrl": "https://www.nyse.com/trade/trading-halts"
+    },
+    {
       "symbol": "SCNI",
       "name": "Scinai Immunotherapeutics ADS",
       "exchange": "Nasdaq",
@@ -669,8 +747,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "YFOR",
-      "name": "YYForce Ord A",
+      "symbol": "SNTI",
+      "name": "Senti Biosciences Hldgs Cmn",
       "exchange": "Nasdaq",
       "haltDate": "2026-11-18",
       "haltTime": "19:50:00",
@@ -682,8 +760,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "SNTI",
-      "name": "Senti Biosciences Hldgs Cmn",
+      "symbol": "YFOR",
+      "name": "YYForce Ord A",
       "exchange": "Nasdaq",
       "haltDate": "2026-11-18",
       "haltTime": "19:50:00",
@@ -838,8 +916,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "UCFIW",
-      "name": "CN Healthy Food Tech Warrant",
+      "symbol": "UCFI",
+      "name": "CN Healthy Food Tech Group CS",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-01",
       "haltTime": "11:28:10",
@@ -851,8 +929,8 @@
       "sourceUrl": "https://www.nasdaqtrader.com/trader.aspx?id=tradehalts"
     },
     {
-      "symbol": "UCFI",
-      "name": "CN Healthy Food Tech Group CS",
+      "symbol": "UCFIW",
+      "name": "CN Healthy Food Tech Warrant",
       "exchange": "Nasdaq",
       "haltDate": "2025-10-01",
       "haltTime": "11:28:10",
